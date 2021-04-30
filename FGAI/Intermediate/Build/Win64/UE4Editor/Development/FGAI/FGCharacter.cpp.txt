@@ -1,6 +1,6 @@
-C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\Definitions.FGAI.h
-C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAI\Source\FGAI\FGCharacter.h
-C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\FGCharacter.generated.h
+C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\Definitions.FGAI.h
+C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Source\FGAI\FGCharacter.h
+C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\FGCharacter.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
@@ -18,10 +18,10 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
-C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAI\Source\FGAI\Components/FGMovementComponent.h
+C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Source\FGAI\Components/FGMovementComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
-C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\FGMovementComponent.generated.h
-C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAI\Source\FGAI\FGMovementStatics.h
-C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAI\Source\FGAI\SoundProjectile.h
-C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\SoundProjectile.generated.h
+C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\FGMovementComponent.generated.h
+C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Source\FGAI\FGMovementStatics.h
+C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Source\FGAI\SoundProjectile.h
+C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\SoundProjectile.generated.h
