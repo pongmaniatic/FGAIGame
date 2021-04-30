@@ -17,7 +17,7 @@ public:
 	UPROPERTY(VisibleDefaultsOnly, Category=Collision)
 	UCapsuleComponent* Capsule;
 
-	UPROPERTY(VisibleDefaultsOnly, Category=Mesh)
+	UPROPERTY(BlueprintReadWrite, Category=Mesh)
 	USkeletalMeshComponent* Mesh;
 
 	UPROPERTY(VisibleDefaultsOnly, Category = Vision)

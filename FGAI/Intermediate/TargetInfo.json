@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "FGAI",
-			"Path": "C:\\Users\\Esteban.Morales\\Perforce\\AIAssignment\\FG20FT_AI_Team6\\FGAI\\Source\\FGAI.Target.cs",
+			"Path": "C:\\Users\\Esteban.Morales\\Perforce\\AIAssignment\\FG20FT_AI_Team6\\FGAIGame\\FGAI\\Source\\FGAI.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "FGAIEditor",
-			"Path": "C:\\Users\\Esteban.Morales\\Perforce\\AIAssignment\\FG20FT_AI_Team6\\FGAI\\Source\\FGAIEditor.Target.cs",
+			"Path": "C:\\Users\\Esteban.Morales\\Perforce\\AIAssignment\\FG20FT_AI_Team6\\FGAIGame\\FGAI\\Source\\FGAIEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

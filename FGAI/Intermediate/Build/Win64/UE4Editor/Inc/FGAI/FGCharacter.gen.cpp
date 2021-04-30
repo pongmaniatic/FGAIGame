@@ -13,14 +13,15 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeFGCharacter() {}
 // Cross Module References
+	FGAI_API UFunction* Z_Construct_UDelegateFunction_FGAI_LisenToSounds__DelegateSignature();
+	UPackage* Z_Construct_UPackage__Script_FGAI();
 	FGAI_API UClass* Z_Construct_UClass_AFGCharacter_NoRegister();
 	FGAI_API UClass* Z_Construct_UClass_AFGCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
-	UPackage* Z_Construct_UPackage__Script_FGAI();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	FGAI_API UClass* Z_Construct_UClass_ASoundProjectile_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
@@ -28,6 +29,28 @@ void EmptyLinkFunctionForGeneratedCodeFGCharacter() {}
 	FGAI_API UClass* Z_Construct_UClass_UFGMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_FGAI_LisenToSounds__DelegateSignature_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_FGAI_LisenToSounds__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FGCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_FGAI_LisenToSounds__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_FGAI, nullptr, "LisenToSounds__DelegateSignature", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_FGAI_LisenToSounds__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_FGAI_LisenToSounds__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_FGAI_LisenToSounds__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_FGAI_LisenToSounds__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	DEFINE_FUNCTION(AFGCharacter::execOnTouchGround)
 	{
 		P_FINISH;
@@ -35,13 +58,44 @@ void EmptyLinkFunctionForGeneratedCodeFGCharacter() {}
 		P_THIS->OnTouchGround();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(AFGCharacter::execMakeEnemieslisen)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->MakeEnemieslisen();
+		P_NATIVE_END;
+	}
 	void AFGCharacter::StaticRegisterNativesAFGCharacter()
 	{
 		UClass* Class = AFGCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "MakeEnemieslisen", &AFGCharacter::execMakeEnemieslisen },
 			{ "OnTouchGround", &AFGCharacter::execOnTouchGround },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AFGCharacter_MakeEnemieslisen_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFGCharacter_MakeEnemieslisen_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Sound" },
+		{ "ModuleRelativePath", "FGCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFGCharacter_MakeEnemieslisen_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFGCharacter, nullptr, "MakeEnemieslisen", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFGCharacter_MakeEnemieslisen_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFGCharacter_MakeEnemieslisen_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFGCharacter_MakeEnemieslisen()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFGCharacter_MakeEnemieslisen_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AFGCharacter_OnTouchGround_Statics
 	{
@@ -77,6 +131,15 @@ void EmptyLinkFunctionForGeneratedCodeFGCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_AllSoundPositions_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AllSoundPositions_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_AllSoundPositions;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EnemiesLisen_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_EnemiesLisen;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BulletSpawnLocation_MetaData[];
 #endif
@@ -142,6 +205,7 @@ void EmptyLinkFunctionForGeneratedCodeFGCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_FGAI,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFGCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AFGCharacter_MakeEnemieslisen, "MakeEnemieslisen" }, // 2228962024
 		{ &Z_Construct_UFunction_AFGCharacter_OnTouchGround, "OnTouchGround" }, // 549258306
 	};
 #if WITH_METADATA
@@ -151,6 +215,21 @@ void EmptyLinkFunctionForGeneratedCodeFGCharacter() {}
 		{ "ModuleRelativePath", "FGCharacter.h" },
 	};
 #endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AFGCharacter_Statics::NewProp_AllSoundPositions_Inner = { "AllSoundPositions", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFGCharacter_Statics::NewProp_AllSoundPositions_MetaData[] = {
+		{ "Category", "Sound" },
+		{ "ModuleRelativePath", "FGCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AFGCharacter_Statics::NewProp_AllSoundPositions = { "AllSoundPositions", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFGCharacter, AllSoundPositions), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AFGCharacter_Statics::NewProp_AllSoundPositions_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFGCharacter_Statics::NewProp_AllSoundPositions_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFGCharacter_Statics::NewProp_EnemiesLisen_MetaData[] = {
+		{ "Category", "Delegate" },
+		{ "ModuleRelativePath", "FGCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AFGCharacter_Statics::NewProp_EnemiesLisen = { "EnemiesLisen", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFGCharacter, EnemiesLisen), Z_Construct_UDelegateFunction_FGAI_LisenToSounds__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_AFGCharacter_Statics::NewProp_EnemiesLisen_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFGCharacter_Statics::NewProp_EnemiesLisen_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFGCharacter_Statics::NewProp_BulletSpawnLocation_MetaData[] = {
 		{ "Category", "Mesh" },
@@ -272,6 +351,9 @@ void EmptyLinkFunctionForGeneratedCodeFGCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFGCharacter_Statics::NewProp_Gravity = { "Gravity", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFGCharacter, Gravity), METADATA_PARAMS(Z_Construct_UClass_AFGCharacter_Statics::NewProp_Gravity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFGCharacter_Statics::NewProp_Gravity_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFGCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFGCharacter_Statics::NewProp_AllSoundPositions_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFGCharacter_Statics::NewProp_AllSoundPositions,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFGCharacter_Statics::NewProp_EnemiesLisen,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFGCharacter_Statics::NewProp_BulletSpawnLocation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFGCharacter_Statics::NewProp_FireSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFGCharacter_Statics::NewProp_FireAnimation,
@@ -314,7 +396,7 @@ void EmptyLinkFunctionForGeneratedCodeFGCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFGCharacter, 1308209584);
+	IMPLEMENT_CLASS(AFGCharacter, 2583060363);
 	template<> FGAI_API UClass* StaticClass<AFGCharacter>()
 	{
 		return AFGCharacter::StaticClass();

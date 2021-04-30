@@ -11,7 +11,7 @@ UCLASS(config = Game)
 class FGAI_API ASoundProjectile : public AActor
 {
 	GENERATED_BODY()
-
+		 
 	UPROPERTY(VisibleDefaultsOnly, Category = Projectile)
 	USphereComponent* CollisionComp;
 

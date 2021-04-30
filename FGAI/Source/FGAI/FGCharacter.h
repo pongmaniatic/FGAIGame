@@ -12,11 +12,23 @@ class UAnimMontage;
 class USoundBase;
 
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FLisenToSounds);
+
 UCLASS()
 class AFGCharacter : public APawn
 {
 	GENERATED_BODY()
 public:
+
+	UPROPERTY(BlueprintReadWrite, Category = "Sound")
+	TArray<FVector> AllSoundPositions;
+
+	UPROPERTY(BlueprintAssignable, Category = "Delegate")
+		FLisenToSounds EnemiesLisen;
+
+	UFUNCTION(BlueprintCallable, Category = "Sound")
+	void MakeEnemieslisen();
+
 	/** Location on gun mesh where projectiles should spawn. */
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 		USceneComponent* BulletSpawnLocation;

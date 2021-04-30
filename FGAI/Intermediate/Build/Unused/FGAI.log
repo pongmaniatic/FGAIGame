@@ -1,13 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame).
-  Invalidating makefile for FGAIEditor (FGCharacter.cpp modified)
+  Invalidating makefile for FGAIEditor (FGNoiseSensingComponent.cpp modified)
+  Parsing headers for FGAIEditor
+    Running UnrealHeaderTool "C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\FGAI.uproject" "C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\FGAIEditor\Development\FGAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Esteban.Morales\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for FGAIEditor in 3,2707805 seconds
   Building FGAIEditor...
   Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 6 processes...
-    [1/4] FGCharacter.cpp
-    [2/4] UE4Editor-FGAI.lib
+  Building 6 actions with 6 processes...
+    [1/6] FGAI.init.gen.cpp
+    [2/6] FGNoiseSensingComponent.gen.cpp
+    [3/6] FGNoiseSensingComponent.cpp
+    [4/6] UE4Editor-FGAI.lib
        Creating library C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\UE4Editor-FGAI.lib and object C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\UE4Editor-FGAI.exp
-    [3/4] UE4Editor-FGAI.dll
+    [5/6] UE4Editor-FGAI.dll
        Creating library C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\UE4Editor-FGAI.suppressed.lib and object C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\UE4Editor-FGAI.suppressed.exp
-    [4/4] FGAIEditor.target
-  Total time in Parallel executor: 1,55 seconds
-  Total execution time: 3,22 seconds
+    [6/6] FGAIEditor.target
+  Total time in Parallel executor: 1,67 seconds
+  Total execution time: 6,69 seconds

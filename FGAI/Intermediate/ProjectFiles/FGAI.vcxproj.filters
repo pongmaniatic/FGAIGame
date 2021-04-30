@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FGAI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7E7FB363-0EF8-4432-8E79-FD4D7EFD3B75}</UniqueIdentifier>
+      <UniqueIdentifier>{E4A39DB2-139D-444B-B9E1-5580B01026AE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FGAI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{54C0D7F6-CFDF-4BBA-975E-CEE2A5F7AC0C}</UniqueIdentifier>
+      <UniqueIdentifier>{836F91EA-6239-4407-9F3F-50EA4F8C3C0B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FGAI">
-      <UniqueIdentifier>{E50241AD-1328-44AE-A29C-BF314C35A1C0}</UniqueIdentifier>
+      <UniqueIdentifier>{A210CA07-72AF-41C6-B87F-260AF3658FFA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FGAI\FGAI.Build.cs">
       <Filter>Source\FGAI</Filter>
@@ -68,6 +68,12 @@
     <ClInclude Include="..\..\Source\FGAI\FGMovementStatics.h">
       <Filter>Source\FGAI</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\FGAI\FGNoiseSensingComponent.cpp">
+      <Filter>Source\FGAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FGAI\FGNoiseSensingComponent.h">
+      <Filter>Source\FGAI</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FGAI\SoundProjectile.cpp">
       <Filter>Source\FGAI</Filter>
     </ClCompile>
@@ -81,10 +87,10 @@
       <Filter>Source\FGAI</Filter>
     </ClInclude>
     <Filter Include="Source\FGAI\AI">
-      <UniqueIdentifier>{AFB2BB96-2E7E-456A-89F5-23165F8C749E}</UniqueIdentifier>
+      <UniqueIdentifier>{ECDB29FA-1189-414E-8793-AF332A27303C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\FGAI\AI\Movement">
-      <UniqueIdentifier>{DD3D8DCB-D78A-4AB2-B775-1458FFEC016A}</UniqueIdentifier>
+      <UniqueIdentifier>{C7038D32-79FC-4E43-AB30-0AA201D9123E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FGAI\AI\Movement\FGNavMovementComponent.cpp">
       <Filter>Source\FGAI\AI\Movement</Filter>
@@ -93,7 +99,7 @@
       <Filter>Source\FGAI\AI\Movement</Filter>
     </ClInclude>
     <Filter Include="Source\FGAI\AI\Sensing">
-      <UniqueIdentifier>{9D14C5C2-67B8-48A0-8339-6ACA6499146E}</UniqueIdentifier>
+      <UniqueIdentifier>{0C2073D4-CC44-4EF9-99DB-95BD079B3BE0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FGAI\AI\Sensing\FGVisionSensingComponent.cpp">
       <Filter>Source\FGAI\AI\Sensing</Filter>
@@ -111,7 +117,7 @@
       <Filter>Source\FGAI\AI\Sensing</Filter>
     </ClInclude>
     <Filter Include="Source\FGAI\AI\StateMachine">
-      <UniqueIdentifier>{F5F7F397-11B9-47CA-ADCF-2F4FA08CD266}</UniqueIdentifier>
+      <UniqueIdentifier>{0801AE5F-9A5D-47FB-BD2B-AF1042400062}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FGAI\AI\StateMachine\FGAIStateBase.cpp">
       <Filter>Source\FGAI\AI\StateMachine</Filter>
@@ -129,7 +135,7 @@
       <Filter>Source\FGAI\AI\StateMachine</Filter>
     </ClInclude>
     <Filter Include="Source\FGAI\Components">
-      <UniqueIdentifier>{4761982B-2608-4E7D-8173-B569B372E9DF}</UniqueIdentifier>
+      <UniqueIdentifier>{506A4FA6-5D3C-4D89-8B7C-09D7C67FF7A5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FGAI\Components\FGMovementComponent.cpp">
       <Filter>Source\FGAI\Components</Filter>

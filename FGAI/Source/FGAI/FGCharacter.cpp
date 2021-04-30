@@ -13,6 +13,8 @@
 
 AFGCharacter::AFGCharacter()
 {
+
+
 	PrimaryActorTick.bStartWithTickEnabled = true;
 
 	bUseControllerRotationPitch = true;
@@ -131,8 +133,8 @@ void AFGCharacter::OnFire()
 
 	if (FireAnimation != nullptr)
 	{
-		UAnimInstance* AnimInstance = Mesh->GetAnimInstance();
-		if (AnimInstance != nullptr) { AnimInstance->Montage_Play(FireAnimation, 1.f); }
+		//UAnimInstance* AnimInstance = Mesh->GetAnimInstance();
+		//if (AnimInstance != nullptr) { AnimInstance->Montage_Play(FireAnimation, 1.f); }
 	}
 	
 
@@ -171,4 +173,10 @@ void AFGCharacter::TurnAtRate(float Rate)
 void AFGCharacter::LookUpAtRate(float Rate)
 {
 	AddControllerPitchInput(Rate * BaseLookUpRate);
+}
+
+void AFGCharacter::MakeEnemieslisen()
+{
+	EnemiesLisen.Broadcast();
+	
 }
