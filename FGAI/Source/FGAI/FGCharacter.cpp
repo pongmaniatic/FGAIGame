@@ -123,18 +123,18 @@ void AFGCharacter::OnFire()
 		}
 	}
 
-	/*
-	if (FireSound != nullptr)// Play the sound, specified in blue print
+	
+	if (FireSound != nullptr)
 	{
-		UGameplayStatics::PlaySousndAtLocation(this, FireSound, GetActorLocation());
+		//UGameplayStatics::PlaySousndAtLocation(this, FireSound, GetActorLocation());
 	}
 
-	if (FireAnimation != nullptr)// Play animation
+	if (FireAnimation != nullptr)
 	{
-		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+		UAnimInstance* AnimInstance = Mesh->GetAnimInstance();
 		if (AnimInstance != nullptr) { AnimInstance->Montage_Play(FireAnimation, 1.f); }
 	}
-	*/
+	
 
 }
 

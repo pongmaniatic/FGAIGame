@@ -1,10 +1,10 @@
-﻿Log file open, 04/30/21 11:54:17
+﻿Log file open, 04/30/21 12:01:18
 LogInit: LLM is enabled
 LogInit: LLM CsvWriter: off TraceWriter: off
 LogInit: Display: Running engine for game: FGAI
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.293410
+LogStats: Stats thread started at 0.312326
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin MeshPainting
@@ -28,15 +28,16 @@ LogPluginManager: Mounting plugin RiderSourceCodeAccess
 LogPluginManager: Mounting plugin SubversionSourceControl
 LogPluginManager: Mounting plugin UObjectPlugin
 LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
-LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
 LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin Niagara
 LogPluginManager: Mounting plugin DatasmithContent
 LogPluginManager: Mounting plugin VariantManagerContent
 LogPluginManager: Mounting plugin AssetManagerEditor
 LogPluginManager: Mounting plugin CryptoKeys
 LogPluginManager: Mounting plugin CurveEditorTools
-LogPluginManager: Mounting plugin FacialAnimation
 LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
 LogPluginManager: Mounting plugin GameplayTagsEditor
 LogPluginManager: Mounting plugin GeometryMode
 LogPluginManager: Mounting plugin MacGraphicsSwitching
@@ -44,32 +45,28 @@ LogPluginManager: Mounting plugin MaterialAnalyzer
 LogPluginManager: Mounting plugin MobileLauncherProfileWizard
 LogPluginManager: Mounting plugin PluginBrowser
 LogPluginManager: Mounting plugin SpeedTreeImporter
-LogPluginManager: Mounting plugin Niagara
 LogPluginManager: Mounting plugin AlembicImporter
-LogPluginManager: Mounting plugin LuminPlatformFeatures
-LogPluginManager: Mounting plugin MagicLeap
-LogPluginManager: Mounting plugin AutomationUtils
 LogPluginManager: Mounting plugin BackChannel
 LogPluginManager: Mounting plugin ChaosCloth
 LogPluginManager: Mounting plugin ChaosClothEditor
 LogPluginManager: Mounting plugin ChaosEditor
 LogPluginManager: Mounting plugin ChaosNiagara
 LogPluginManager: Mounting plugin ChaosSolverPlugin
-LogPluginManager: Mounting plugin MagicLeapLightEstimation
 LogPluginManager: Mounting plugin CharacterAI
-LogPluginManager: Mounting plugin MagicLeapMedia
-LogPluginManager: Mounting plugin MagicLeapPassableWorld
-LogPluginManager: Mounting plugin MLSDK
 LogPluginManager: Mounting plugin GeometryCache
 LogPluginManager: Mounting plugin GeometryCollectionPlugin
 LogPluginManager: Mounting plugin GeometryProcessing
-LogPluginManager: Mounting plugin TcpMessaging
-LogPluginManager: Mounting plugin UdpMessaging
 LogPluginManager: Mounting plugin MotoSynth
 LogPluginManager: Mounting plugin PlanarCut
-LogPluginManager: Mounting plugin PlatformCrypto
 LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PlatformCrypto
 LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
 LogPluginManager: Mounting plugin AndroidMedia
 LogPluginManager: Mounting plugin AvfMedia
 LogPluginManager: Mounting plugin ImgMedia
@@ -77,6 +74,8 @@ LogPluginManager: Mounting plugin MediaCompositing
 LogPluginManager: Mounting plugin MediaPlayerEditor
 LogPluginManager: Mounting plugin WebMMedia
 LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
 LogPluginManager: Mounting plugin ActorSequence
 LogPluginManager: Mounting plugin LevelSequenceEditor
 LogPluginManager: Mounting plugin MatineeToLevelSequence
@@ -96,7 +95,6 @@ LogPluginManager: Mounting plugin AssetTags
 LogPluginManager: Mounting plugin AudioCapture
 LogPluginManager: Mounting plugin AudioSynesthesia
 LogPluginManager: Mounting plugin CableComponent
-LogPluginManager: Mounting plugin ChunkDownloader
 LogPluginManager: Mounting plugin CustomMeshComponent
 LogPluginManager: Mounting plugin EditableMesh
 LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
@@ -117,6 +115,8 @@ LogPluginManager: Mounting plugin SoundFields
 LogPluginManager: Mounting plugin Synthesis
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin AutomationUtils
 LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
 LogPluginManager: Mounting plugin ContentBrowserClassDataSource
 LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
@@ -208,793 +208,662 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
-[2021.04.30-09.54.18:458][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
-[2021.04.30-09.54.18:458][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
-[2021.04.30-09.54.18:458][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
-[2021.04.30-09.54.18:471][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:472][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.04.30-09.54.18:472][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.04.30-09.54.18:472][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.04.30-09.54.18:473][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.04.30-09.54.18:474][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.04.30-09.54.18:475][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.04.30-09.54.18:476][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.04.30-09.54.18:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.04.30-09.54.18:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
-[2021.04.30-09.54.18:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.04.30-09.54.18:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
-[2021.04.30-09.54.18:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.04.30-09.54.18:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.04.30-09.54.18:477][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.04.30-09.54.18:477][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:477][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.04.30-09.54.18:477][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.04.30-09.54.18:477][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:477][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
-[2021.04.30-09.54.18:477][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
-[2021.04.30-09.54.18:477][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
-[2021.04.30-09.54.18:477][  0]LogInit: Selected Device Profile: [Windows]
-[2021.04.30-09.54.18:477][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.04.30-09.54.18:478][  0]LogHAL: Display: Platform has ~ 16 GB [17087197184 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.04.30-09.54.18:478][  0]LogInit: Going up to parent DeviceProfile []
-[2021.04.30-09.54.18:478][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.04.30-09.54.18:478][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.04.30-09.54.18:479][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.04.30-09.54.18:480][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
-[2021.04.30-09.54.18:481][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
-[2021.04.30-09.54.18:482][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
-[2021.04.30-09.54.18:482][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.04.30-09.54.18:482][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.04.30-09.54.18:482][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.04.30-09.54.18:482][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.04.30-09.54.18:482][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
-[2021.04.30-09.54.18:482][  0]LogInit: Computer: FG19078
-[2021.04.30-09.54.18:482][  0]LogInit: User: EstebanMorales
-[2021.04.30-09.54.18:482][  0]LogInit: CPU Page size=4096, Cores=6
-[2021.04.30-09.54.18:482][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.04.30-09.54.18:482][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2021.04.30-09.54.18:482][  0]LogMemory: Platform Memory Stats for Windows
-[2021.04.30-09.54.18:483][  0]LogMemory: Process Physical Memory: 129.53 MB used, 129.53 MB peak
-[2021.04.30-09.54.18:483][  0]LogMemory: Process Virtual Memory: 108.24 MB used, 108.24 MB peak
-[2021.04.30-09.54.18:483][  0]LogMemory: Physical Memory: 7385.92 MB used,  8909.70 MB free, 16295.62 MB total
-[2021.04.30-09.54.18:483][  0]LogMemory: Virtual Memory: 134208400.00 MB used,  9331.02 MB free, 134217728.00 MB total
-[2021.04.30-09.54.18:492][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.04.30-09.54.18:915][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.04.30-09.54.18:916][  0]LogInit: Using OS detected language (en-GB).
-[2021.04.30-09.54.18:916][  0]LogInit: Using OS detected locale (en-SE).
-[2021.04.30-09.54.18:921][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2021.04.30-09.54.19:149][  0]LogInit: Setting process to per monitor DPI aware
-[2021.04.30-09.54.19:189][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
-[2021.04.30-09.54.19:269][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.04.30-09.54.19:269][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.04.30-09.54.21:841][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.04.30-09.54.21:841][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.04.30-09.54.21:841][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.04.30-09.54.21:841][  0]LogD3D11RHI: D3D11 adapters:
-[2021.04.30-09.54.21:975][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
-[2021.04.30-09.54.21:975][  0]LogD3D11RHI:       5980/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2021.04.30-09.54.21:984][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.04.30-09.54.21:984][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.04.30-09.54.21:985][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.04.30-09.54.21:989][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.04.30-09.54.21:989][  0]LogD3D11RHI:     GPU DeviceId: 0x1f08 (for the marketing name, search the web for "GPU Device Id")
-[2021.04.30-09.54.21:989][  0]LogWindows: EnumDisplayDevices:
-[2021.04.30-09.54.21:989][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
-[2021.04.30-09.54.21:990][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
-[2021.04.30-09.54.21:990][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2021.04.30-09.54.21:990][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2021.04.30-09.54.21:990][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2021.04.30-09.54.21:990][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
-[2021.04.30-09.54.21:990][  0]LogD3D11RHI:   Driver Version: 461.92 (internal:27.21.14.6192, unified:461.92)
-[2021.04.30-09.54.21:990][  0]LogD3D11RHI:      Driver Date: 3-10-2021
-[2021.04.30-09.54.21:990][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
-[2021.04.30-09.54.22:075][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.04.30-09.54.22:075][  0]LogD3D11RHI: Async texture creation enabled
-[2021.04.30-09.54.22:075][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.04.30-09.54.22:091][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.04.30-09.54.22:098][  0]LogRHI: GeForceNow SDK initialized: 1
-[2021.04.30-09.54.22:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.04.30-09.54.22:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.04.30-09.54.22:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.04.30-09.54.22:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.04.30-09.54.22:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.04.30-09.54.22:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.04.30-09.54.22:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.04.30-09.54.22:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.04.30-09.54.22:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.04.30-09.54.22:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.04.30-09.54.22:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.04.30-09.54.22:484][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.04.30-09.54.22:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.04.30-09.54.22:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.04.30-09.54.22:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.04.30-09.54.22:513][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.04.30-09.54.22:522][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.04.30-09.54.22:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.04.30-09.54.22:540][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.04.30-09.54.22:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.04.30-09.54.22:573][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.04.30-09.54.22:574][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.04.30-09.54.22:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
-[2021.04.30-09.54.22:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
-[2021.04.30-09.54.22:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
-[2021.04.30-09.54.22:608][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
-[2021.04.30-09.54.22:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.04.30-09.54.22:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.04.30-09.54.22:631][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.04.30-09.54.22:640][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.04.30-09.54.22:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.04.30-09.54.22:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.04.30-09.54.22:658][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.04.30-09.54.22:709][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.04.30-09.54.22:896][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
-[2021.04.30-09.54.22:896][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Intermediate/Shaders/WorkingDirectory/8104/).
-[2021.04.30-09.54.22:897][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Esteban.Morales/AppData/Local/Temp/UnrealShaderWorkingDir/C3FF53D64EED489CEF67FEBA9F4BB821/'.
-[2021.04.30-09.54.22:897][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.04.30-09.54.22:897][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.04.30-09.54.25:701][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.04.30-09.54.25:749][  0]LogDerivedDataCache: Loaded boot cache 0.05s 80MB C:/Users/Esteban.Morales/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
-[2021.04.30-09.54.25:750][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Esteban.Morales/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
-[2021.04.30-09.54.25:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.04.30-09.54.25:750][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.04.30-09.54.25:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.04.30-09.54.25:750][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.04.30-09.54.25:768][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.04.30-09.54.25:769][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.04.30-09.54.25:769][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.04.30-09.54.25:777][  0]LogDerivedDataCache: Speed tests for C:/Users/Esteban.Morales/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
-[2021.04.30-09.54.25:777][  0]LogDerivedDataCache: Display: Performance to C:/Users/Esteban.Morales/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.04ms. RandomReadSpeed=245.96MBs, RandomWriteSpeed=233.47MBs. Assigned SpeedClass 'Local'
-[2021.04.30-09.54.25:780][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Esteban.Morales/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.04.30-09.54.25:780][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.04.30-09.54.25:780][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.04.30-09.54.25:822][  0]LogSlate: Using FreeType 2.10.0
-[2021.04.30-09.54.25:836][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.04.30-09.54.25:862][  0]LogAssetRegistry: FAssetRegistry took 0.0046 seconds to start up
-[2021.04.30-09.54.26:062][  0]LogInit: Selected Device Profile: [Windows]
-[2021.04.30-09.54.26:062][  0]LogInit: Active device profile: [000001954331DE00][0000019543BA68C0 49] Windows
-[2021.04.30-09.54.26:062][  0]LogInit: Profiles: [000001954331DE00][0000019543BA68C0 49] Windows, [00000195432C2500][0000019543BB2A40 49] WindowsNoEditor, [000001954331F900][0000019543BB6BC0 49] WindowsServer, [00000195432C2100][0000019543BBAD40 49] WindowsClient, [000001954331ED00][0000019543BC2EC0 49] IOS, [00000195432C0800][0000019543BCB040 49] iPadAir, [000001954331FB00][0000019543BCF1C0 49] iPadAir2, [000001954315B200][0000019543BD7480 49] IPadPro, [000001954315B300][0000019543BD34C0 49] iPadAir3, [000001954331C200][0000019543BAB600 49] iPadAir4, [000001954315B500][0000019543BDB740 49] iPadMini2, [000001954331CE00][0000019543BDF880 49] iPadMini3, [0000019543159400][0000019543BE39C0 49] iPadMini4, [000001954331D000][0000019543BEBB40 49] iPadMini5, [0000019543196B00][0000019543C0A140 49] iPhone6, [0000019543196C00][0000019543C06180 49] iPodTouch6, [000001954315BC00][0000019543C12440 49] iPhone7, [000001954315BB00][0000019543C0E480 49] iPodTouch7, [0000019543194E00][0000019543C16600 49] iPhone5S, [000001954315BD00][0000019543C3A780 49] iPhone6Plus, [0000019543195200][0000019543C3E900 49] iPhone6S, [000001954315A800][0000019543C42A80 49] iPhone6SPlus, [0000019543196D00][0000019543C46C00 49] iPhone7Plus, [000001954315B800][0000019543C4AD80 49] iPhoneSE, [0000019543197200][0000019543C4EF00 49] iPhone8, [0000019543159600][0000019543C53080 49] iPhone8Plus, [0000019543195F00][0000019543C57200 49] iPhoneX, [0000019543159D00][0000019543C87380 49] iPhoneXS, [0000019543194300][0000019543C8B500 49] iPhoneXSMax, [0000019543158400][0000019543BE7640 49] iPhoneXR, [0000019543196500][0000019543C8F780 49] iPhone11, [000001954315A500][0000019543C938C0 49] iPhone11Pro, [0000019543194600][0000019543C97A00 49] iPhone11ProMax, [0000019543158E00][0000019543C9FB80 49] iPhoneSE2, [0000019543195400][0000019543CA3D00 49] iPhone12Mini, [0000019543159E00][0000019543CA61C0 49] iPhone12, [0000019543197400][0000019543CAA340 49] iPhone12Pro, [0000019543158200][0000019543CAE4C0 49] iPhone12ProMax, [0000019543195B00][0000019543CB2640 49] iPadPro105, [0000019543197600][0000019543CB67C0 49] iPadPro129, [00000195432C1D00][0000019543CBA940 49] iPadPro97, [0000019543194C00][0000019543CBEAC0 49] iPadPro2_129, [00000195432C2700][0000019543CC2C40 49] iPad5, [0000019543194500][0000019543CC6DC0 49] iPad6, [00000195432C0B00][0000019543CCAF40 49] iPad7, [0000019543197800][0000019543CCF0C0 49] iPad8, [00000195432C1200][0000019543CD3240 49] iPadPro11, [0000019543195A00][0000019543CD73C0 49] iPadPro2_11, [00000195432C0700][0000019543CDB540 49] iPadPro3_129, [00000195432C2400][0000019543CDF6C0 49] iPadPro4_129, [000001954315B700][0000019543C9B800 49] AppleTV, [00000195432C0300][0000019543CE3940 49] AppleTV4K, [000001954315B400][0000019543CE7A80 49] TVOS, [00000195432C1F00][0000019543CEFC00 49] Mac, [0000019543158100][0000019543CF20C0 49] MacClient, [0000019543197500][0000019543CF6240 49] MacNoEditor, [000001954315BE00][0000019543CFA3C0 49] MacServer, [0000019543195D00][0000019543CFE540 49] Linux, [0000019543159000][0000019543D026C0 49] LinuxNoEditor, [0000019543194800][0000019543D06840 49] LinuxAArch64NoEditor, [000001954315A100][0000019543D0A9C0 49] LinuxClient, [0000019543196E00][0000019543D0EB40 49] LinuxAArch64Client, [0000019543158C00][0000019543D12CC0 49] LinuxServer, [0000019543197900][0000019543D16E40 49] LinuxAArch64Server, [0000019543158300][0000019543D1AFC0 49] Android, [0000019543196F00][0000019543D1F140 49] Android_Low, [000001954315A600][0000019543D232C0 49] Android_Mid, [0000019543197700][0000019543D27440 49] Android_High, [000001954315A000][0000019543D2B5C0 49] Android_Default, [0000019543197300][0000019543D2F740 49] Android_Adreno4xx, [0000019543158F00][0000019543CEB880 49] Android_Adreno5xx_Low, [0000019543197E00][0000019543D339C0 49] Android_Adreno5xx, [0000019543159500][0000019543D37B00 49] Android_Adreno6xx, [0000019543196900][0000019543D3BC40 49] Android_Adreno6xx_Vulkan, [000001954315AF00][0000019543D42100 49] Android_Mali_T6xx, [0000019543197000][0000019543D46280 49] Android_Mali_T7xx, [000001954315A300][0000019543D4A400 49] Android_Mali_T8xx, [0000019543194B00][0000019543D4E580 49] Android_Mali_G71, [0000019543158D00][0000019543D52700 49] Android_Mali_G72, [0000019543194D00][0000019543D56880 49] Android_Mali_G72_Vulkan, [0000019543159300][0000019543D5AA00 49] Android_Mali_G76, [0000019543195800][0000019543D5EB80 49] Android_Mali_G76_Vulkan, [0000019543158700][0000019543D62D00 49] Android_Mali_G77, [0000019543195700][0000019543D66E80 49] Android_Mali_G77_Vulkan, [000001954315A400][0000019543D6B000 49] Android_Vulkan_SM5, [0000019543195600][0000019543D6F180 49] Android_PowerVR_G6xxx, [0000019543158B00][0000019543D73300 49] Android_PowerVR_GT7xxx, [0000019543196A00][0000019543D77480 49] Android_PowerVR_GE8xxx, [0000019543158900][0000019543D7B600 49] Android_PowerVR_GM9xxx, [0000019543194100][0000019543D7F780 49] Android_PowerVR_GM9xxx_Vulkan, [000001954315B900][0000019543D3F8C0 49] Android_TegraK1, [0000019543196600][0000019543D83A00 49] Android_Unknown_Vulkan, [00000195432C3900][0000019543D87B40 49] Lumin, [000001954331F700][0000019543D8BC80 49] Lumin_Desktop, [00000195432C2200][0000019543D92140 49] HoloLens, 
-[2021.04.30-09.54.26:257][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.04.30-09.54.26:258][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.04.30-09.54.26:258][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.04.30-09.54.26:258][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.04.30-09.54.26:258][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.04.30-09.54.26:307][  0]LogNetVersion: FGAI 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 439728770)
-[2021.04.30-09.54.27:323][  0]LogHMD: PokeAHoleMaterial loaded successfully
-[2021.04.30-09.54.27:366][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.042589 seconds
-[2021.04.30-09.54.27:371][  0]LogUObjectArray: 16830 objects as part of root set at end of initial load.
-[2021.04.30-09.54.27:371][  0]LogUObjectAllocator: 4209472 out of 0 bytes used by permanent object pool.
-[2021.04.30-09.54.27:371][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.04.30-09.54.28:028][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.04.30-09.54.28:034][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.04.30-09.54.28:175][  0]SourceControl: Source control is disabled
-[2021.04.30-09.54.28:175][  0]SourceControl: Source control is disabled
-[2021.04.30-09.54.28:203][  0]LogUProjectInfo: Found projects:
-[2021.04.30-09.54.28:536][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.04.30-09.54.28:561][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.04.30-09.54.28:561][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.04.30-09.54.28:617][  0]LogCollectionManager: Loaded 0 collections in 0.001355 seconds
-[2021.04.30-09.54.28:655][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Collections/' took 0.00s
-[2021.04.30-09.54.28:655][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Developers/EstebanMorales/Collections/' took 0.00s
-[2021.04.30-09.54.28:655][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Collections/' took 0.00s
-[2021.04.30-09.54.28:655][  0]LogOcInput: OculusInput pre-init called
-[2021.04.30-09.54.28:667][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.04.30-09.54.28:667][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.04.30-09.54.28:735][  0]LogEngine: Initializing Engine...
-[2021.04.30-09.54.28:737][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.04.30-09.54.28:738][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.04.30-09.54.28:739][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.04.30-09.54.28:997][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.04.30-09.54.29:005][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.04.30-09.54.29:005][  0]LogAudio: Display: Initializing Audio Device Manager...
-[2021.04.30-09.54.29:010][  0]LogAudio: Display: Audio Device Manager Initialized
-[2021.04.30-09.54.29:010][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
-[2021.04.30-09.54.29:010][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.04.30-09.54.29:010][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.04.30-09.54.29:010][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.04.30-09.54.29:010][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.04.30-09.54.29:011][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.04.30-09.54.29:011][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.04.30-09.54.29:011][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.04.30-09.54.29:011][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.04.30-09.54.29:011][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.04.30-09.54.29:011][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.04.30-09.54.29:028][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.04.30-09.54.29:028][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.04.30-09.54.29:120][  0]LogAudioMixer: Display: Using Audio Device LEN T24i-10 (NVIDIA High Definition Audio)
-[2021.04.30-09.54.29:121][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.04.30-09.54.29:143][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.04.30-09.54.29:143][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.04.30-09.54.29:144][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.04.30-09.54.29:144][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
-[2021.04.30-09.54.29:144][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
-[2021.04.30-09.54.29:146][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
-[2021.04.30-09.54.29:146][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
-[2021.04.30-09.54.29:146][  0]LogInit: FAudioDevice initialized.
-[2021.04.30-09.54.29:146][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
-[2021.04.30-09.54.29:147][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.04.30-09.54.29:213][  0]LogDerivedDataCache: Saved boot cache 0.07s 77MB C:/Users/Esteban.Morales/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
-[2021.04.30-09.54.29:214][  0]LogInit: Texture streaming: Enabled
-[2021.04.30-09.54.29:228][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.1-15228867+++UE4+Release-4.26
-[2021.04.30-09.54.29:232][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.04.30-09.54.29:232][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.04.30-09.54.29:234][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.04.30-09.54.29:254][  0]LogInit: Transaction tracking system initialized
-[2021.04.30-09.54.29:279][  0]BlueprintLog: New page: Editor Load
-[2021.04.30-09.54.29:366][  0]LocalizationService: Localization service is disabled
-[2021.04.30-09.54.29:393][  0]TimingProfiler: Initialize
-[2021.04.30-09.54.29:393][  0]TimingProfiler: OnSessionChanged
-[2021.04.30-09.54.29:393][  0]LoadingProfiler: Initialize
-[2021.04.30-09.54.29:393][  0]LoadingProfiler: OnSessionChanged
-[2021.04.30-09.54.29:393][  0]NetworkingProfiler: Initialize
-[2021.04.30-09.54.29:393][  0]NetworkingProfiler: OnSessionChanged
-[2021.04.30-09.54.29:393][  0]MemoryProfiler: Initialize
-[2021.04.30-09.54.29:394][  0]MemoryProfiler: OnSessionChanged
-[2021.04.30-09.54.29:467][  0]DDCNotifications: Shared DDC not detected, performance notification enabled
-[2021.04.30-09.54.29:737][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
-[2021.04.30-09.54.29:737][  0]LogCook: Display: Mobile HDR setting 1
-[2021.04.30-09.54.29:748][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/' took 0.01s
-[2021.04.30-09.54.29:748][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
-[2021.04.30-09.54.29:749][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
-[2021.04.30-09.54.29:749][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
-[2021.04.30-09.54.29:749][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
-[2021.04.30-09.54.29:750][  0]LoadErrors: Failed to load /Game/Cube.Cube Referenced by Cube
-[2021.04.30-09.54.29:750][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
-[2021.04.30-09.54.30:079][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
-[2021.04.30-09.54.30:120][  0]LogUnrealEdMisc: Loading editor; pre map load, took 12.765
-[2021.04.30-09.54.30:121][  0]LightingResults: New page: Lighting Build
-[2021.04.30-09.54.30:122][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.04.30-09.54.30:122][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.30-09.54.30:122][  0]MapCheck: New page: Map Check
-[2021.04.30-09.54.30:122][  0]LightingResults: New page: Lighting Build
-[2021.04.30-09.54.30:129][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
-[2021.04.30-09.54.30:274][  0]LogLinker: Warning: Asset '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_AIController.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2021.04.30-09.54.30:278][  0]LogLinker: Warning: Asset '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/DA_EnemyVisionSettings.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2021.04.30-09.54.30:515][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonExampleMap'.
-[2021.04.30-09.54.30:522][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.04.30-09.54.30:523][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2021.04.30-09.54.30:529][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
-[2021.04.30-09.54.30:529][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.04.30-09.54.30:530][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,151ms to complete.
-[2021.04.30-09.54.30:530][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.409
-[2021.04.30-09.54.30:532][  0]LogUnrealEdMisc: Total Editor Startup Time, took 13.176
-[2021.04.30-09.54.30:725][  0]LogSourceControl: Attempting 'p4 client -o AIAssignment'
-[2021.04.30-09.54.30:726][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-09.54.30:732][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-09.54.30:738][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-09.54.30:743][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-09.54.30:788][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0077 seconds. Added 3613 classes and 866 folders.
-[2021.04.30-09.54.30:798][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.04.30-09.54.30:813][  0]LogPakFile: PakFile PrimaryIndexSize=187
-[2021.04.30-09.54.30:813][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:813][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
-[2021.04.30-09.54.30:813][  0]LogPakFile: OnPakFileMounted2Time == 0.000010
-[2021.04.30-09.54.30:824][  0]LogPakFile: PakFile PrimaryIndexSize=189
-[2021.04.30-09.54.30:824][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:824][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
-[2021.04.30-09.54.30:824][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
-[2021.04.30-09.54.30:830][  0]LogPakFile: PakFile PrimaryIndexSize=191
-[2021.04.30-09.54.30:830][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:830][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
-[2021.04.30-09.54.30:830][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
-[2021.04.30-09.54.30:837][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.04.30-09.54.30:837][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:837][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
-[2021.04.30-09.54.30:837][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
-[2021.04.30-09.54.30:844][  0]LogPakFile: PakFile PrimaryIndexSize=190
-[2021.04.30-09.54.30:844][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:844][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
-[2021.04.30-09.54.30:844][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
-[2021.04.30-09.54.30:850][  0]LogPakFile: PakFile PrimaryIndexSize=192
-[2021.04.30-09.54.30:850][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:850][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
-[2021.04.30-09.54.30:850][  0]LogPakFile: OnPakFileMounted2Time == 0.000031
-[2021.04.30-09.54.30:856][  0]LogPakFile: PakFile PrimaryIndexSize=182
-[2021.04.30-09.54.30:857][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:857][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
-[2021.04.30-09.54.30:857][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
-[2021.04.30-09.54.30:863][  0]LogPakFile: PakFile PrimaryIndexSize=184
-[2021.04.30-09.54.30:863][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:863][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
-[2021.04.30-09.54.30:863][  0]LogPakFile: OnPakFileMounted2Time == 0.000040
-[2021.04.30-09.54.30:872][  0]LogPakFile: PakFile PrimaryIndexSize=188
-[2021.04.30-09.54.30:872][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:872][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
-[2021.04.30-09.54.30:872][  0]LogPakFile: OnPakFileMounted2Time == 0.000044
-[2021.04.30-09.54.30:878][  0]LogPakFile: PakFile PrimaryIndexSize=182
-[2021.04.30-09.54.30:878][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:878][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
-[2021.04.30-09.54.30:878][  0]LogPakFile: OnPakFileMounted2Time == 0.000048
-[2021.04.30-09.54.30:884][  0]LogPakFile: PakFile PrimaryIndexSize=184
-[2021.04.30-09.54.30:885][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:885][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
-[2021.04.30-09.54.30:885][  0]LogPakFile: OnPakFileMounted2Time == 0.000053
-[2021.04.30-09.54.30:891][  0]LogPakFile: PakFile PrimaryIndexSize=183
-[2021.04.30-09.54.30:891][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:892][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
-[2021.04.30-09.54.30:892][  0]LogPakFile: OnPakFileMounted2Time == 0.000057
-[2021.04.30-09.54.30:898][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.04.30-09.54.30:898][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:898][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
-[2021.04.30-09.54.30:898][  0]LogPakFile: OnPakFileMounted2Time == 0.000062
-[2021.04.30-09.54.30:905][  0]LogPakFile: PakFile PrimaryIndexSize=188
-[2021.04.30-09.54.30:905][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:905][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
-[2021.04.30-09.54.30:905][  0]LogPakFile: OnPakFileMounted2Time == 0.000067
-[2021.04.30-09.54.30:912][  0]LogPakFile: PakFile PrimaryIndexSize=190
-[2021.04.30-09.54.30:912][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:912][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
-[2021.04.30-09.54.30:912][  0]LogPakFile: OnPakFileMounted2Time == 0.000071
-[2021.04.30-09.54.30:919][  0]LogPakFile: PakFile PrimaryIndexSize=187
-[2021.04.30-09.54.30:919][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:919][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
-[2021.04.30-09.54.30:919][  0]LogPakFile: OnPakFileMounted2Time == 0.000075
-[2021.04.30-09.54.30:925][  0]LogPakFile: PakFile PrimaryIndexSize=189
-[2021.04.30-09.54.30:925][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:926][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
-[2021.04.30-09.54.30:926][  0]LogPakFile: OnPakFileMounted2Time == 0.000080
-[2021.04.30-09.54.30:932][  0]LogPakFile: PakFile PrimaryIndexSize=183
-[2021.04.30-09.54.30:932][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:932][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
-[2021.04.30-09.54.30:932][  0]LogPakFile: OnPakFileMounted2Time == 0.000084
-[2021.04.30-09.54.30:939][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.04.30-09.54.30:939][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:939][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
-[2021.04.30-09.54.30:939][  0]LogPakFile: OnPakFileMounted2Time == 0.000087
-[2021.04.30-09.54.30:947][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.04.30-09.54.30:947][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:947][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
-[2021.04.30-09.54.30:947][  0]LogPakFile: OnPakFileMounted2Time == 0.000091
-[2021.04.30-09.54.30:953][  0]LogPakFile: PakFile PrimaryIndexSize=187
-[2021.04.30-09.54.30:953][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:954][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
-[2021.04.30-09.54.30:954][  0]LogPakFile: OnPakFileMounted2Time == 0.000095
-[2021.04.30-09.54.30:960][  0]LogPakFile: PakFile PrimaryIndexSize=183
-[2021.04.30-09.54.30:960][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:960][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
-[2021.04.30-09.54.30:961][  0]LogPakFile: OnPakFileMounted2Time == 0.000098
-[2021.04.30-09.54.30:967][  0]LogPakFile: PakFile PrimaryIndexSize=186
-[2021.04.30-09.54.30:967][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:967][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
-[2021.04.30-09.54.30:967][  0]LogPakFile: OnPakFileMounted2Time == 0.000102
-[2021.04.30-09.54.30:974][  0]LogPakFile: PakFile PrimaryIndexSize=188
-[2021.04.30-09.54.30:974][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:974][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
-[2021.04.30-09.54.30:974][  0]LogPakFile: OnPakFileMounted2Time == 0.000106
-[2021.04.30-09.54.30:981][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.04.30-09.54.30:981][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:981][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
-[2021.04.30-09.54.30:981][  0]LogPakFile: OnPakFileMounted2Time == 0.000109
-[2021.04.30-09.54.30:987][  0]LogPakFile: PakFile PrimaryIndexSize=192
-[2021.04.30-09.54.30:987][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.04.30-09.54.30:987][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
-[2021.04.30-09.54.30:987][  0]LogPakFile: OnPakFileMounted2Time == 0.000113
-[2021.04.30-09.54.31:196][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.04.30-09.54.31:202][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
-[2021.04.30-09.54.31:421][  0]LogSlate: Took 0.005331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.04.30-09.54.31:427][  0]LogSlate: Took 0.004670 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.04.30-09.54.31:437][  0]LogSlate: Took 0.005526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.04.30-09.54.31:606][  0]LogRenderer: Reallocating scene render targets to support 1140x556 Format 10 NumSamples 1 (Frame:1).
-[2021.04.30-09.54.31:701][  0]LogSlate: Took 0.006617 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.04.30-09.54.31:753][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.04.30-09.54.31:753][  0]LogLoad: (Engine Initialization) Total time: 14.40 seconds
-[2021.04.30-09.54.31:753][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.04.30-09.54.31:753][  0]LogInit: First time updating LLM stats...
-[2021.04.30-09.54.31:856][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
-[2021.04.30-09.54.31:856][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
-[2021.04.30-09.54.31:857][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
-[2021.04.30-09.54.31:857][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
-[2021.04.30-09.54.31:857][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
-[2021.04.30-09.54.31:880][  0]LogAssetRegistry: Asset discovery search completed in 6.0214 seconds
-[2021.04.30-09.54.31:881][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2021.04.30-09.54.31:908][  0]SourceControl: Client AIAssignment
-[2021.04.30-09.54.31:908][  0]SourceControl: Update 2021/04/22 11:12:20
-[2021.04.30-09.54.31:908][  0]SourceControl: Access 2021/04/30 11:54:05
-[2021.04.30-09.54.31:909][  0]SourceControl: Owner Esteban.Morales
-[2021.04.30-09.54.31:909][  0]SourceControl: Host FG19078
-[2021.04.30-09.54.31:909][  0]SourceControl: Description Created by Esteban.Morales.
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.30-10.01.19:109][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.30-10.01.19:109][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.30-10.01.19:110][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.30-10.01.19:110][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.30-10.01.19:110][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.30-10.01.19:110][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.30-10.01.19:110][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.30-10.01.19:110][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.30-10.01.19:110][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.30-10.01.19:110][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.30-10.01.19:110][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.30-10.01.19:110][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.30-10.01.19:110][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.04.30-10.01.19:110][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.30-10.01.19:110][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.30-10.01.19:124][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:124][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.30-10.01.19:124][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.30-10.01.19:124][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:124][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.30-10.01.19:124][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.30-10.01.19:125][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.30-10.01.19:126][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.30-10.01.19:126][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.30-10.01.19:126][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.30-10.01.19:126][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:126][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.30-10.01.19:126][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.30-10.01.19:126][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.30-10.01.19:126][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.30-10.01.19:126][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.30-10.01.19:126][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.30-10.01.19:126][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.30-10.01.19:126][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.30-10.01.19:126][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.30-10.01.19:126][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.30-10.01.19:131][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.30-10.01.19:134][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.30-10.01.19:136][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.30-10.01.19:138][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.30-10.01.19:138][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.30-10.01.19:138][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.30-10.01.19:138][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.30-10.01.19:139][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.30-10.01.19:139][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.30-10.01.19:139][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.30-10.01.19:140][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.30-10.01.19:140][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.30-10.01.19:141][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.30-10.01.19:141][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.30-10.01.19:141][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.30-10.01.19:141][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.30-10.01.19:141][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.30-10.01.19:141][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.30-10.01.19:141][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.30-10.01.19:141][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.30-10.01.19:142][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:142][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.30-10.01.19:142][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.30-10.01.19:142][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.30-10.01.19:142][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.30-10.01.19:142][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.30-10.01.19:142][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.30-10.01.19:142][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.30-10.01.19:142][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.30-10.01.19:143][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.30-10.01.19:143][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:143][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.30-10.01.19:143][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.30-10.01.19:143][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.30-10.01.19:143][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.30-10.01.19:143][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.30-10.01.19:144][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.30-10.01.19:144][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.30-10.01.19:144][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.30-10.01.19:144][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.04.30-10.01.19:144][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.30-10.01.19:144][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.30-10.01.19:144][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.04.30-10.01.19:145][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.04.30-10.01.19:146][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.30-10.01.19:146][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.30-10.01.19:146][  0]LogHAL: Display: Platform has ~ 16 GB [17087197184 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.30-10.01.19:146][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.30-10.01.19:146][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:146][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.30-10.01.19:146][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.30-10.01.19:146][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:146][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.30-10.01.19:146][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:146][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.30-10.01.19:146][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.30-10.01.19:146][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.30-10.01.19:146][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.30-10.01.19:146][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.30-10.01.19:147][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.30-10.01.19:147][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.30-10.01.19:147][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.30-10.01.19:147][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.30-10.01.19:147][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.30-10.01.19:147][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.30-10.01.19:147][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.30-10.01.19:147][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.30-10.01.19:147][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.30-10.01.19:148][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.30-10.01.19:148][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.30-10.01.19:148][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.30-10.01.19:149][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.30-10.01.19:149][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:149][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.30-10.01.19:149][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.30-10.01.19:150][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.30-10.01.19:150][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.30-10.01.19:150][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.30-10.01.19:150][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.30-10.01.19:150][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.30-10.01.19:150][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.30-10.01.19:150][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.30-10.01.19:150][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.30-10.01.19:150][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.30-10.01.19:150][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.30-10.01.19:150][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.30-10.01.19:150][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.30-10.01.19:151][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.30-10.01.19:151][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.30-10.01.19:151][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.30-10.01.19:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.30-10.01.19:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.30-10.01.19:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.30-10.01.19:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.30-10.01.19:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.30-10.01.19:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.30-10.01.19:152][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.30-10.01.19:153][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.30-10.01.19:154][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.30-10.01.19:154][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.30-10.01.19:154][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.30-10.01.19:154][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.30-10.01.19:154][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.30-10.01.19:154][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:154][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.30-10.01.19:154][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.30-10.01.19:154][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.30-10.01.19:155][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.30-10.01.19:155][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.30-10.01.19:155][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.30-10.01.19:155][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.30-10.01.19:155][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.30-10.01.19:155][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.30-10.01.19:155][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:155][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.30-10.01.19:155][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.30-10.01.19:155][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.30-10.01.19:155][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.30-10.01.19:155][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.30-10.01.19:156][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.30-10.01.19:156][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.30-10.01.19:156][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.30-10.01.19:156][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.04.30-10.01.19:156][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.30-10.01.19:156][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.30-10.01.19:156][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.30-10.01.19:156][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.30-10.01.19:158][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.30-10.01.19:158][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.30-10.01.19:158][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.30-10.01.19:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.30-10.01.19:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.04.30-10.01.19:159][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.30-10.01.19:159][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.30-10.01.19:159][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.30-10.01.19:159][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.04.30-10.01.19:159][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.30-10.01.19:159][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.04.30-10.01.19:159][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.30-10.01.19:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.30-10.01.19:160][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.30-10.01.19:160][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:160][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.30-10.01.19:160][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.30-10.01.19:160][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-10.01.19:160][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.04.30-10.01.19:160][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.04.30-10.01.19:160][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.04.30-10.01.19:160][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.30-10.01.19:162][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.30-10.01.19:162][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.30-10.01.19:162][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.30-10.01.19:162][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Config/Windows/Engine.ini]
+[2021.04.30-10.01.19:163][  0]LogInit: Computer: FG19078
+[2021.04.30-10.01.19:163][  0]LogInit: User: EstebanMorales
+[2021.04.30-10.01.19:163][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.04.30-10.01.19:163][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.30-10.01.19:163][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.04.30-10.01.19:163][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.30-10.01.19:164][  0]LogMemory: Process Physical Memory: 130.04 MB used, 130.05 MB peak
+[2021.04.30-10.01.19:164][  0]LogMemory: Process Virtual Memory: 108.27 MB used, 108.27 MB peak
+[2021.04.30-10.01.19:165][  0]LogMemory: Physical Memory: 7195.62 MB used,  9100.00 MB free, 16295.62 MB total
+[2021.04.30-10.01.19:166][  0]LogMemory: Virtual Memory: 134208480.00 MB used,  9245.53 MB free, 134217728.00 MB total
+[2021.04.30-10.01.19:182][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.30-10.01.19:344][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.30-10.01.19:345][  0]LogInit: Using OS detected language (en-GB).
+[2021.04.30-10.01.19:345][  0]LogInit: Using OS detected locale (en-SE).
+[2021.04.30-10.01.19:350][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.04.30-10.01.19:519][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.30-10.01.19:543][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.04.30-10.01.19:578][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.30-10.01.19:578][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.30-10.01.19:697][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.30-10.01.19:697][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.30-10.01.19:697][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.30-10.01.19:697][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.30-10.01.19:815][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2021.04.30-10.01.19:815][  0]LogD3D11RHI:       5980/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.04.30-10.01.19:820][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.30-10.01.19:820][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.30-10.01.19:820][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.30-10.01.19:825][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.30-10.01.19:825][  0]LogD3D11RHI:     GPU DeviceId: 0x1f08 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.30-10.01.19:825][  0]LogWindows: EnumDisplayDevices:
+[2021.04.30-10.01.19:825][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
+[2021.04.30-10.01.19:826][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2021.04.30-10.01.19:826][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2021.04.30-10.01.19:826][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2021.04.30-10.01.19:826][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.04.30-10.01.19:826][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2021.04.30-10.01.19:826][  0]LogD3D11RHI:   Driver Version: 461.92 (internal:27.21.14.6192, unified:461.92)
+[2021.04.30-10.01.19:827][  0]LogD3D11RHI:      Driver Date: 3-10-2021
+[2021.04.30-10.01.19:827][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2021.04.30-10.01.19:910][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.30-10.01.19:910][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.30-10.01.19:910][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.30-10.01.19:926][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.04.30-10.01.19:930][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.04.30-10.01.20:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.30-10.01.20:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.30-10.01.20:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.30-10.01.20:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.30-10.01.20:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.30-10.01.20:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.30-10.01.20:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.30-10.01.20:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.30-10.01.20:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.30-10.01.20:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.30-10.01.20:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.30-10.01.20:219][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.30-10.01.20:219][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.30-10.01.20:229][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.30-10.01.20:238][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.30-10.01.20:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.30-10.01.20:256][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.30-10.01.20:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.30-10.01.20:275][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.30-10.01.20:284][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.30-10.01.20:310][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.30-10.01.20:310][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.30-10.01.20:318][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.04.30-10.01.20:327][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.04.30-10.01.20:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.04.30-10.01.20:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.04.30-10.01.20:360][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.30-10.01.20:360][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.30-10.01.20:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.30-10.01.20:379][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.30-10.01.20:387][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.30-10.01.20:397][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.30-10.01.20:397][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.30-10.01.20:408][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.30-10.01.20:498][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.04.30-10.01.20:499][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Intermediate/Shaders/WorkingDirectory/13100/).
+[2021.04.30-10.01.20:499][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Esteban.Morales/AppData/Local/Temp/UnrealShaderWorkingDir/4935DE784C5108DC1A47A6B0B065910B/'.
+[2021.04.30-10.01.20:499][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.30-10.01.20:499][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.30-10.01.21:143][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.30-10.01.21:187][  0]LogDerivedDataCache: Loaded boot cache 0.04s 77MB C:/Users/Esteban.Morales/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.04.30-10.01.21:187][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Esteban.Morales/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.04.30-10.01.21:187][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.30-10.01.21:187][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.30-10.01.21:187][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.30-10.01.21:187][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.30-10.01.21:197][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.30-10.01.21:198][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.30-10.01.21:198][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.30-10.01.21:209][  0]LogDerivedDataCache: Speed tests for C:/Users/Esteban.Morales/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2021.04.30-10.01.21:209][  0]LogDerivedDataCache: Display: Performance to C:/Users/Esteban.Morales/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=269.10MBs, RandomWriteSpeed=125.70MBs. Assigned SpeedClass 'Local'
+[2021.04.30-10.01.21:212][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Esteban.Morales/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.30-10.01.21:212][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.30-10.01.21:212][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.30-10.01.21:253][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.30-10.01.21:254][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.30-10.01.21:279][  0]LogAssetRegistry: FAssetRegistry took 0.0046 seconds to start up
+[2021.04.30-10.01.21:467][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.30-10.01.21:468][  0]LogInit: Active device profile: [000002A94ABBDE00][000002A94A21F4C0 49] Windows
+[2021.04.30-10.01.21:468][  0]LogInit: Profiles: [000002A94ABBDE00][000002A94A21F4C0 49] Windows, [000002A94AB82500][000002A94A223600 49] WindowsNoEditor, [000002A94ABBF900][000002A94B259740 49] WindowsServer, [000002A94AB82100][000002A94B25D880 49] WindowsClient, [000002A94ABBED00][000002A94B26D9C0 49] IOS, [000002A94AB80800][000002A94B275B40 49] iPadAir, [000002A94ABBFB00][000002A94B279CC0 49] iPadAir2, [000002A94A92F200][000002A94B2882C0 49] IPadPro, [000002A94A92F300][000002A94B280300 49] iPadAir3, [000002A94ABBC200][000002A94B28C480 49] iPadAir4, [000002A94A92F500][000002A94B290600 49] iPadMini2, [000002A94ABBCE00][000002A94B294780 49] iPadMini3, [000002A94A92D400][000002A94B298900 49] iPadMini4, [000002A94ABBD000][000002A94B29CA80 49] iPadMini5, [000002A94A976B00][000002A94B2A4D40 49] iPhone6, [000002A94A976C00][000002A94B2A0D80 49] iPodTouch6, [000002A94A92FC00][000002A94B2C5040 49] iPhone7, [000002A94A92FB00][000002A94B2A9080 49] iPodTouch7, [000002A94A974E00][000002A94B2C9200 49] iPhone5S, [000002A94A92FD00][000002A94B2CD380 49] iPhone6Plus, [000002A94A975200][000002A94B2D1500 49] iPhone6S, [000002A94A92E800][000002A94B271640 49] iPhone6SPlus, [000002A94A976D00][000002A94B2F5780 49] iPhone7Plus, [000002A94A92F800][000002A94B2F98C0 49] iPhoneSE, [000002A94A977200][000002A94B2FDA00 49] iPhone8, [000002A94A92D600][000002A94B305B80 49] iPhone8Plus, [000002A94A975F00][000002A94B309D00 49] iPhoneX, [000002A94A92DD00][000002A94B30C1C0 49] iPhoneXS, [000002A94A974300][000002A94B310340 49] iPhoneXSMax, [000002A94A92C400][000002A94B3404C0 49] iPhoneXR, [000002A94A976500][000002A94B344640 49] iPhone11, [000002A94A92E500][000002A94B3487C0 49] iPhone11Pro, [000002A94A974600][000002A94B34C940 49] iPhone11ProMax, [000002A94A92CE00][000002A94B350AC0 49] iPhoneSE2, [000002A94A975400][000002A94B354C40 49] iPhone12Mini, [000002A94A92DE00][000002A94B358DC0 49] iPhone12, [000002A94A977400][000002A94B35CF40 49] iPhone12Pro, [000002A94A92C200][000002A94B3610C0 49] iPhone12ProMax, [000002A94A975B00][000002A94B365240 49] iPadPro105, [000002A94A977600][000002A94B3693C0 49] iPadPro129, [000002A94AB81D00][000002A94B36D540 49] iPadPro97, [000002A94A974C00][000002A94B3716C0 49] iPadPro2_129, [000002A94AB82700][000002A94B301800 49] iPad5, [000002A94A974500][000002A94B375940 49] iPad6, [000002A94AB80B00][000002A94B379A80 49] iPad7, [000002A94A977800][000002A94B381C00 49] iPad8, [000002A94AB81200][000002A94B3840C0 49] iPadPro11, [000002A94A975A00][000002A94B388240 49] iPadPro2_11, [000002A94AB80700][000002A94B38C3C0 49] iPadPro3_129, [000002A94AB82400][000002A94B390540 49] iPadPro4_129, [000002A94A92F700][000002A94B3946C0 49] AppleTV, [000002A94AB80300][000002A94B398840 49] AppleTV4K, [000002A94A92F400][000002A94B39C9C0 49] TVOS, [000002A94AB81F00][000002A94B3A0B40 49] Mac, [000002A94A92C100][000002A94B3A4CC0 49] MacClient, [000002A94A977500][000002A94B3A8E40 49] MacNoEditor, [000002A94A92FE00][000002A94B3ACFC0 49] MacServer, [000002A94A975D00][000002A94B3B1140 49] Linux, [000002A94A92D000][000002A94B3B52C0 49] LinuxNoEditor, [000002A94A974800][000002A94B3B9440 49] LinuxAArch64NoEditor, [000002A94A92E100][000002A94B3BD5C0 49] LinuxClient, [000002A94A976E00][000002A94B3C1740 49] LinuxAArch64Client, [000002A94A92CC00][000002A94B37D880 49] LinuxServer, [000002A94A977900][000002A94B3C59C0 49] LinuxAArch64Server, [000002A94A92C300][000002A94B3C9B00 49] Android, [000002A94A976F00][000002A94B3CDC40 49] Android_Low, [000002A94A92E600][000002A94B3D4100 49] Android_Mid, [000002A94A977700][000002A94B3D8280 49] Android_High, [000002A94A92E000][000002A94B3DC400 49] Android_Default, [000002A94A977300][000002A94B3E0580 49] Android_Adreno4xx, [000002A94A92CF00][000002A94B3E4700 49] Android_Adreno5xx_Low, [000002A94A977E00][000002A94B3E8880 49] Android_Adreno5xx, [000002A94A92D500][000002A94B3ECA00 49] Android_Adreno6xx, [000002A94A976900][000002A94B3F0B80 49] Android_Adreno6xx_Vulkan, [000002A94A92EF00][000002A94B3F4D00 49] Android_Mali_T6xx, [000002A94A977000][000002A94B3F8E80 49] Android_Mali_T7xx, [000002A94A92E300][000002A94B3FD000 49] Android_Mali_T8xx, [000002A94A974B00][000002A94B401180 49] Android_Mali_G71, [000002A94A92CD00][000002A94B405300 49] Android_Mali_G72, [000002A94A974D00][000002A94B409480 49] Android_Mali_G72_Vulkan, [000002A94A92D300][000002A94B40D600 49] Android_Mali_G76, [000002A94A975800][000002A94B411780 49] Android_Mali_G76_Vulkan, [000002A94A92C700][000002A94B3D18C0 49] Android_Mali_G77, [000002A94A975700][000002A94B415A00 49] Android_Mali_G77_Vulkan, [000002A94A92E400][000002A94B419B40 49] Android_Vulkan_SM5, [000002A94A975600][000002A94B41DC80 49] Android_PowerVR_G6xxx, [000002A94A92CB00][000002A94B424140 49] Android_PowerVR_GT7xxx, [000002A94A976A00][000002A94B4282C0 49] Android_PowerVR_GE8xxx, [000002A94A92C900][000002A94B42C440 49] Android_PowerVR_GM9xxx, [000002A94A974100][000002A94B4305C0 49] Android_PowerVR_GM9xxx_Vulkan, [000002A94A92F900][000002A94B434740 49] Android_TegraK1, [000002A94A976600][000002A94B4388C0 49] Android_Unknown_Vulkan, [000002A94AB83900][000002A94B43CA40 49] Lumin, [000002A94ABBF700][000002A94B440BC0 49] Lumin_Desktop, [000002A94AB82200][000002A94B444D40 49] HoloLens, 
+[2021.04.30-10.01.21:571][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.30-10.01.21:571][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.30-10.01.21:571][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.30-10.01.21:571][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.30-10.01.21:571][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.30-10.01.21:595][  0]LogNetVersion: FGAI 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 439728770)
+[2021.04.30-10.01.21:942][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.04.30-10.01.21:983][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.040395 seconds
+[2021.04.30-10.01.21:988][  0]LogUObjectArray: 16830 objects as part of root set at end of initial load.
+[2021.04.30-10.01.21:988][  0]LogUObjectAllocator: 4209472 out of 0 bytes used by permanent object pool.
+[2021.04.30-10.01.21:988][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.30-10.01.22:373][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.30-10.01.22:379][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.30-10.01.22:511][  0]SourceControl: Source control is disabled
+[2021.04.30-10.01.22:511][  0]SourceControl: Source control is disabled
+[2021.04.30-10.01.22:537][  0]LogUProjectInfo: Found projects:
+[2021.04.30-10.01.22:783][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.30-10.01.22:805][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.30-10.01.22:805][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.30-10.01.22:869][  0]LogCollectionManager: Loaded 0 collections in 0.001427 seconds
+[2021.04.30-10.01.22:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Collections/' took 0.00s
+[2021.04.30-10.01.22:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Developers/EstebanMorales/Collections/' took 0.00s
+[2021.04.30-10.01.22:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Collections/' took 0.00s
+[2021.04.30-10.01.22:894][  0]LogOcInput: OculusInput pre-init called
+[2021.04.30-10.01.22:905][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.04.30-10.01.22:905][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.04.30-10.01.22:958][  0]LogEngine: Initializing Engine...
+[2021.04.30-10.01.22:959][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.30-10.01.22:959][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.04.30-10.01.22:960][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.04.30-10.01.23:043][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.30-10.01.23:050][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.30-10.01.23:064][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.04.30-10.01.23:069][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.04.30-10.01.23:069][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.04.30-10.01.23:069][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-10.01.23:069][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-10.01.23:070][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-10.01.23:070][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-10.01.23:070][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-10.01.23:070][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-10.01.23:070][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-10.01.23:070][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-10.01.23:070][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-10.01.23:070][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-10.01.23:086][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-10.01.23:087][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-10.01.23:147][  0]LogAudioMixer: Display: Using Audio Device LEN T24i-10 (NVIDIA High Definition Audio)
+[2021.04.30-10.01.23:149][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-10.01.23:151][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-10.01.23:151][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-10.01.23:151][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-10.01.23:152][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.04.30-10.01.23:152][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.04.30-10.01.23:153][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.04.30-10.01.23:154][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.04.30-10.01.23:154][  0]LogInit: FAudioDevice initialized.
+[2021.04.30-10.01.23:154][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.04.30-10.01.23:154][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.30-10.01.23:227][  0]LogDerivedDataCache: Saved boot cache 0.07s 77MB C:/Users/Esteban.Morales/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.04.30-10.01.23:228][  0]LogInit: Texture streaming: Enabled
+[2021.04.30-10.01.23:243][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.1-15228867+++UE4+Release-4.26
+[2021.04.30-10.01.23:246][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.30-10.01.23:246][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.30-10.01.23:249][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.30-10.01.23:270][  0]LogInit: Transaction tracking system initialized
+[2021.04.30-10.01.23:294][  0]BlueprintLog: New page: Editor Load
+[2021.04.30-10.01.23:375][  0]LocalizationService: Localization service is disabled
+[2021.04.30-10.01.23:402][  0]TimingProfiler: Initialize
+[2021.04.30-10.01.23:402][  0]TimingProfiler: OnSessionChanged
+[2021.04.30-10.01.23:402][  0]LoadingProfiler: Initialize
+[2021.04.30-10.01.23:402][  0]LoadingProfiler: OnSessionChanged
+[2021.04.30-10.01.23:402][  0]NetworkingProfiler: Initialize
+[2021.04.30-10.01.23:402][  0]NetworkingProfiler: OnSessionChanged
+[2021.04.30-10.01.23:402][  0]MemoryProfiler: Initialize
+[2021.04.30-10.01.23:403][  0]MemoryProfiler: OnSessionChanged
+[2021.04.30-10.01.23:470][  0]DDCNotifications: Shared DDC not detected, performance notification enabled
+[2021.04.30-10.01.23:518][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.04.30-10.01.23:519][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.30-10.01.23:525][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/' took 0.01s
+[2021.04.30-10.01.23:525][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
+[2021.04.30-10.01.23:525][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
+[2021.04.30-10.01.23:526][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
+[2021.04.30-10.01.23:526][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
+[2021.04.30-10.01.23:526][  0]LoadErrors: Failed to load /Game/Cube.Cube Referenced by Cube
+[2021.04.30-10.01.23:526][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
+[2021.04.30-10.01.23:822][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.04.30-10.01.23:842][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.863
+[2021.04.30-10.01.23:842][  0]LightingResults: New page: Lighting Build
+[2021.04.30-10.01.23:843][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-10.01.23:843][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-10.01.23:843][  0]MapCheck: New page: Map Check
+[2021.04.30-10.01.23:843][  0]LightingResults: New page: Lighting Build
+[2021.04.30-10.01.23:850][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.04.30-10.01.23:898][  0]LogLinker: Warning: Asset '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_AIController.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.04.30-10.01.23:900][  0]LogLinker: Warning: Asset '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/DA_EnemyVisionSettings.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.04.30-10.01.24:061][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonExampleMap'.
+[2021.04.30-10.01.24:067][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.30-10.01.24:067][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.04.30-10.01.24:075][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.04.30-10.01.24:076][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.30-10.01.24:076][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,139ms to complete.
+[2021.04.30-10.01.24:076][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.234
+[2021.04.30-10.01.24:079][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.100
+[2021.04.30-10.01.24:218][  0]LogSourceControl: Attempting 'p4 client -o AIAssignment'
+[2021.04.30-10.01.24:218][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-10.01.24:223][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-10.01.24:228][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-10.01.24:233][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-10.01.24:245][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0076 seconds. Added 3613 classes and 866 folders.
+[2021.04.30-10.01.24:247][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.04.30-10.01.24:248][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.04.30-10.01.24:248][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:248][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.04.30-10.01.24:248][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2021.04.30-10.01.24:249][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.04.30-10.01.24:249][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:249][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.04.30-10.01.24:249][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2021.04.30-10.01.24:250][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.04.30-10.01.24:250][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:250][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.04.30-10.01.24:250][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2021.04.30-10.01.24:250][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.04.30-10.01.24:250][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:250][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.04.30-10.01.24:250][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2021.04.30-10.01.24:251][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.04.30-10.01.24:251][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:251][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.04.30-10.01.24:251][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
+[2021.04.30-10.01.24:252][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.04.30-10.01.24:252][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:252][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.04.30-10.01.24:252][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2021.04.30-10.01.24:252][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.04.30-10.01.24:252][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:252][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.04.30-10.01.24:252][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2021.04.30-10.01.24:253][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.04.30-10.01.24:253][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:253][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.04.30-10.01.24:253][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2021.04.30-10.01.24:253][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.04.30-10.01.24:253][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:253][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.04.30-10.01.24:254][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2021.04.30-10.01.24:254][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.04.30-10.01.24:254][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:254][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.04.30-10.01.24:254][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2021.04.30-10.01.24:255][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.04.30-10.01.24:255][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:255][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.04.30-10.01.24:255][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2021.04.30-10.01.24:255][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.04.30-10.01.24:255][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:255][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.04.30-10.01.24:255][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2021.04.30-10.01.24:256][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.04.30-10.01.24:256][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:256][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.04.30-10.01.24:256][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2021.04.30-10.01.24:256][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.04.30-10.01.24:257][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:257][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.04.30-10.01.24:257][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2021.04.30-10.01.24:257][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.04.30-10.01.24:257][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:257][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.04.30-10.01.24:257][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2021.04.30-10.01.24:258][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.04.30-10.01.24:258][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:258][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.04.30-10.01.24:258][  0]LogPakFile: OnPakFileMounted2Time == 0.000031
+[2021.04.30-10.01.24:259][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.04.30-10.01.24:259][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:259][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.04.30-10.01.24:259][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2021.04.30-10.01.24:259][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.04.30-10.01.24:259][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:259][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.04.30-10.01.24:259][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
+[2021.04.30-10.01.24:260][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.04.30-10.01.24:260][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:260][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.04.30-10.01.24:260][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2021.04.30-10.01.24:261][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.04.30-10.01.24:261][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:261][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.04.30-10.01.24:261][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2021.04.30-10.01.24:261][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.04.30-10.01.24:261][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:261][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.04.30-10.01.24:261][  0]LogPakFile: OnPakFileMounted2Time == 0.000041
+[2021.04.30-10.01.24:262][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.04.30-10.01.24:262][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:262][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.04.30-10.01.24:262][  0]LogPakFile: OnPakFileMounted2Time == 0.000042
+[2021.04.30-10.01.24:263][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.04.30-10.01.24:263][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:263][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.04.30-10.01.24:263][  0]LogPakFile: OnPakFileMounted2Time == 0.000044
+[2021.04.30-10.01.24:263][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.04.30-10.01.24:263][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:263][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.04.30-10.01.24:263][  0]LogPakFile: OnPakFileMounted2Time == 0.000046
+[2021.04.30-10.01.24:264][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.04.30-10.01.24:264][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:264][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.04.30-10.01.24:264][  0]LogPakFile: OnPakFileMounted2Time == 0.000048
+[2021.04.30-10.01.24:265][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.04.30-10.01.24:265][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.04.30-10.01.24:265][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.04.30-10.01.24:265][  0]LogPakFile: OnPakFileMounted2Time == 0.000049
+[2021.04.30-10.01.24:298][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.04.30-10.01.24:299][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.04.30-10.01.24:379][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.30-10.01.24:381][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.30-10.01.24:384][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.30-10.01.24:486][  0]LogRenderer: Reallocating scene render targets to support 1140x556 Format 10 NumSamples 1 (Frame:1).
+[2021.04.30-10.01.24:533][  0]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.30-10.01.24:579][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.04.30-10.01.24:579][  0]LogLoad: (Engine Initialization) Total time: 6.60 seconds
+[2021.04.30-10.01.24:579][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.30-10.01.24:579][  0]LogInit: First time updating LLM stats...
+[2021.04.30-10.01.24:727][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
+[2021.04.30-10.01.24:727][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
+[2021.04.30-10.01.24:728][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
+[2021.04.30-10.01.24:728][  0]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
+[2021.04.30-10.01.24:728][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
+[2021.04.30-10.01.24:746][  0]LogAssetRegistry: Asset discovery search completed in 3.4712 seconds
+[2021.04.30-10.01.24:748][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.04.30-10.01.24:769][  0]SourceControl: Client AIAssignment
+[2021.04.30-10.01.24:769][  0]SourceControl: Update 2021/04/22 11:12:20
+[2021.04.30-10.01.24:769][  0]SourceControl: Access 2021/04/30 12:00:20
+[2021.04.30-10.01.24:770][  0]SourceControl: Owner Esteban.Morales
+[2021.04.30-10.01.24:770][  0]SourceControl: Host FG19078
+[2021.04.30-10.01.24:770][  0]SourceControl: Description Created by Esteban.Morales.
 
-[2021.04.30-09.54.31:909][  0]SourceControl: Root C:\Users\Esteban.Morales\Perforce\AIAssignment
-[2021.04.30-09.54.31:909][  0]SourceControl: Options noallwrite noclobber nocompress unlocked nomodtime normdir
-[2021.04.30-09.54.31:909][  0]SourceControl: SubmitOptions submitunchanged
-[2021.04.30-09.54.31:909][  0]SourceControl: LineEnd local
-[2021.04.30-09.54.31:909][  0]SourceControl: View0 //FG20FT_AI_Team6/... //AIAssignment/FG20FT_AI_Team6/...
-[2021.04.30-09.54.31:910][  0]SourceControl: specFormatted 
-[2021.04.30-09.54.31:910][  0]SourceControl: func client-FstatInfo
-[2021.04.30-09.54.31:911][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.04.30-09.54.31:967][  0]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Config/DefaultEngine.ini C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/FGAIGameMode.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/StateMachine/FGAIStateBase.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/StateMachine/FGAIStateMachineSheet.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/FGCharacter.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/FGEnemy.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/Components/FGMovementComponent.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/Movement/FGNavMovementComponent.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/StateMachine/FGStateMachineComponent.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/Sensing/FGVisionSensingComponent.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/Sensing/FGVisionSensingSettings.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/Sensing/FGVisionSensingTargetComponent.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/MySoundProjectile.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/SoundProjectile.h'
-[2021.04.30-09.54.32:053][  0]LogRenderer: Reallocating scene render targets to support 1140x572 Format 10 NumSamples 1 (Frame:2).
-[2021.04.30-09.54.32:053][  0]LogSlate: Took 0.006514 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2021.04.30-09.54.32:767][ 80]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.04.30-09.54.33:152][ 91]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_AIController.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_GameMode_Default.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_Player.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/CubeMovable.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/DA_EnemyVisionSettings.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset'
-[2021.04.30-09.54.56:745][905]LogTemp: Repeating last play command: Selected Viewport
-[2021.04.30-09.54.56:750][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.04.30-09.54.56:759][905]PIE: New page: PIE session: FirstPersonExampleMap (30 Apr 2021, 13:54:56)
-[2021.04.30-09.54.56:762][905]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2021.04.30-09.54.56:764][905]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2021.04.30-09.54.56:764][905]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
-[2021.04.30-09.54.56:777][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012152s)
-[2021.04.30-09.54.56:777][905]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2021.04.30-09.54.56:777][905]LogPlayLevel: PIE: World Init took: (0.001192s)
-[2021.04.30-09.54.56:777][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014058s)
-[2021.04.30-09.54.56:785][905]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
-[2021.04.30-09.54.56:786][905]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
-[2021.04.30-09.54.56:786][905]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.04.30-09.54.56:786][905]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.04.30-09.54.56:787][905]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.04.30-09.54.56:787][905]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.04.30-09.54.56:787][905]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.04.30-09.54.56:787][905]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.04.30-09.54.56:787][905]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.04.30-09.54.56:787][905]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.04.30-09.54.56:787][905]LogAudio: Display: Using built-in audio occlusion.
-[2021.04.30-09.54.56:787][905]LogAudioMixer: Display: Initializing audio mixer.
-[2021.04.30-09.54.56:790][905]LogAudioMixer: Display: 0: FrontLeft
-[2021.04.30-09.54.56:790][905]LogAudioMixer: Display: 1: FrontRight
-[2021.04.30-09.54.56:812][905]LogAudioMixer: Display: Using Audio Device LEN T24i-10 (NVIDIA High Definition Audio)
-[2021.04.30-09.54.56:812][905]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.04.30-09.54.56:812][905]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.04.30-09.54.56:812][905]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.04.30-09.54.56:812][905]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.04.30-09.54.56:812][905]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
-[2021.04.30-09.54.56:812][905]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
-[2021.04.30-09.54.56:825][905]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
-[2021.04.30-09.54.56:825][905]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
-[2021.04.30-09.54.56:826][905]LogInit: FAudioDevice initialized.
-[2021.04.30-09.54.56:826][905]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonExampleMap'.
-[2021.04.30-09.54.56:837][905]LogLoad: Game class is 'FGAIGameMode'
-[2021.04.30-09.54.56:840][905]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.04.30-11.54.56
-[2021.04.30-09.54.56:841][905]LogWorld: Bringing up level for play took: 0.002045
-[2021.04.30-09.54.56:841][905]LogOnline: OSS: Creating online subsystem instance for: :Context_5
-[2021.04.30-09.54.56:849][905]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2021.04.30-09.54.56:850][905]PIE: Server logged in
-[2021.04.30-09.54.56:851][905]PIE: Play in editor total start time 0,103 seconds.
-[2021.04.30-09.55.04:162][776]LogBlueprintUserMessages: [BP_Enemy_2] seen
-[2021.04.30-09.55.05:139][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-09.55.05:140][889]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
-[2021.04.30-09.55.05:140][889]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2021.04.30-09.55.05:140][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.30-09.55.05:151][889]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.04.30-09.55.05:152][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.30-09.55.05:156][889]LogAudio: Display: Audio Device unregistered from world 'None'.
-[2021.04.30-09.55.05:156][889]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
-[2021.04.30-09.55.05:158][889]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
-[2021.04.30-09.55.05:181][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-09.55.05:182][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
-[2021.04.30-09.55.05:216][891]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2021.04.30-09.55.05:740][954]Cmd: SELECT NONE
-[2021.04.30-09.55.06:828][ 84]LogTemp: Repeating last play command: Selected Viewport
-[2021.04.30-09.55.06:833][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.04.30-09.55.06:833][ 84]PIE: New page: PIE session: FirstPersonExampleMap (30 Apr 2021, 13:55:06)
-[2021.04.30-09.55.06:857][ 84]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
-[2021.04.30-09.55.06:866][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009365s)
-[2021.04.30-09.55.06:867][ 84]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2021.04.30-09.55.06:868][ 84]LogPlayLevel: PIE: World Init took: (0.001249s)
-[2021.04.30-09.55.06:868][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011006s)
-[2021.04.30-09.55.06:874][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
-[2021.04.30-09.55.06:875][ 84]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
-[2021.04.30-09.55.06:875][ 84]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.04.30-09.55.06:875][ 84]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.04.30-09.55.06:875][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.04.30-09.55.06:875][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.04.30-09.55.06:875][ 84]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.04.30-09.55.06:875][ 84]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.04.30-09.55.06:875][ 84]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.04.30-09.55.06:875][ 84]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.04.30-09.55.06:876][ 84]LogAudio: Display: Using built-in audio occlusion.
-[2021.04.30-09.55.06:876][ 84]LogAudioMixer: Display: Initializing audio mixer.
-[2021.04.30-09.55.06:879][ 84]LogAudioMixer: Display: 0: FrontLeft
-[2021.04.30-09.55.06:879][ 84]LogAudioMixer: Display: 1: FrontRight
-[2021.04.30-09.55.06:899][ 84]LogAudioMixer: Display: Using Audio Device LEN T24i-10 (NVIDIA High Definition Audio)
-[2021.04.30-09.55.06:900][ 84]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.04.30-09.55.06:900][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.04.30-09.55.06:900][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.04.30-09.55.06:900][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.04.30-09.55.06:900][ 84]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
-[2021.04.30-09.55.06:900][ 84]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
-[2021.04.30-09.55.06:914][ 84]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
-[2021.04.30-09.55.06:914][ 84]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
-[2021.04.30-09.55.06:914][ 84]LogInit: FAudioDevice initialized.
-[2021.04.30-09.55.06:914][ 84]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonExampleMap'.
-[2021.04.30-09.55.06:926][ 84]LogLoad: Game class is 'FGAIGameMode'
-[2021.04.30-09.55.06:928][ 84]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.04.30-11.55.06
-[2021.04.30-09.55.06:928][ 84]LogWorld: Bringing up level for play took: 0.001861
-[2021.04.30-09.55.06:928][ 84]LogOnline: OSS: Creating online subsystem instance for: :Context_6
-[2021.04.30-09.55.06:931][ 84]PIE: Server logged in
-[2021.04.30-09.55.06:932][ 84]PIE: Play in editor total start time 0,1 seconds.
-[2021.04.30-09.55.10:118][464]LogBlueprintUserMessages: [BP_Enemy_2] seen
-[2021.04.30-09.55.10:860][553]LogBlueprintUserMessages: [BP_Enemy_2] lost
-[2021.04.30-09.55.13:443][863]LogBlueprintUserMessages: [BP_Enemy_2] seen
-[2021.04.30-09.55.14:576][999]LogBlueprintUserMessages: [BP_Enemy_2] lost
-[2021.04.30-09.55.20:250][680]LogBlueprintUserMessages: [BP_Enemy_2] seen
-[2021.04.30-09.55.20:425][701]LogBlueprintUserMessages: [BP_Enemy_2] lost
-[2021.04.30-09.55.24:791][225]LogBlueprintUserMessages: [BP_Enemy_2] seen
-[2021.04.30-09.55.26:016][372]LogBlueprintUserMessages: [BP_Enemy_2] lost
-[2021.04.30-09.55.36:716][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-09.55.36:716][650]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
-[2021.04.30-09.55.36:716][650]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2021.04.30-09.55.36:717][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.30-09.55.36:751][650]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.04.30-09.55.36:756][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.30-09.55.36:771][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-09.55.36:771][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
-[2021.04.30-09.55.36:774][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
-[2021.04.30-09.55.36:806][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
-[2021.04.30-09.55.36:822][651]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2021.04.30-09.55.40:791][116]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy_C (BP_Enemy)
-[2021.04.30-09.55.42:696][295]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy
-[2021.04.30-09.55.43:334][295]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 126 classes and 0 folders.
-[2021.04.30-09.55.44:153][295]LogSlate: Took 0.004450 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2021.04.30-09.55.45:437][413]LogSlate: Took 0.006451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2021.04.30-09.55.47:760][639]LogRenderer: Reallocating scene render targets to support 1140x712 Format 10 NumSamples 1 (Frame:1).
-[2021.04.30-09.55.51:766][ 17]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset'
-[2021.04.30-09.55.51:776][ 18]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/FirstPersonExampleMap.umap'
-[2021.04.30-09.55.59:707][777]LogPhysics: Warning: Scale for /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_Enemy_2.Capsule has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.000 Z=1.000
-[2021.04.30-09.55.59:707][777]LogPhysics: Warning: Scale for /Engine/Transient.World_4:PersistentLevel.BP_Enemy_C_0.Capsule has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=1.000 Z=1.000
-[2021.04.30-09.56.00:160][823]LogEditorTransaction: Undo Modify Component Scale
-[2021.04.30-09.56.38:661][751]BlueprintLog: New page: Compile BP_Enemy
-[2021.04.30-09.56.38:725][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
-[2021.04.30-09.56.39:314][809]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset'
-[2021.04.30-09.56.40:650][809]LogSlate: Window 'Check Out Assets' being destroyed
-[2021.04.30-09.56.40:747][809]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset'
-[2021.04.30-09.56.40:747][809]LogSourceControl: Attempting 'p4 edit C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset'
-[2021.04.30-09.56.40:796][809]LogSavePackage: Moving '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/BP_Enemy2A02B2E346784AE984ACBFB1248BC5D5.tmp' to '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset'
-[2021.04.30-09.56.40:810][809]AssetCheck: New page: Asset Save: BP_Enemy
-[2021.04.30-09.56.40:811][809]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/BP_Enemy.BP_Enemy
-[2021.04.30-09.56.42:660][992]LogSlate: Window 'BP_Enemy' being destroyed
-[2021.04.30-09.56.44:045][149]LogTemp: Repeating last play command: Selected Viewport
-[2021.04.30-09.56.44:051][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.04.30-09.56.44:051][149]PIE: New page: PIE session: FirstPersonExampleMap (30 Apr 2021, 13:56:44)
-[2021.04.30-09.56.44:052][149]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
-[2021.04.30-09.56.44:061][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009045s)
-[2021.04.30-09.56.44:062][149]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2021.04.30-09.56.44:063][149]LogPlayLevel: PIE: World Init took: (0.001665s)
-[2021.04.30-09.56.44:063][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011108s)
-[2021.04.30-09.56.44:079][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
-[2021.04.30-09.56.44:080][149]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
-[2021.04.30-09.56.44:080][149]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.04.30-09.56.44:080][149]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.04.30-09.56.44:080][149]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.04.30-09.56.44:080][149]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.04.30-09.56.44:081][149]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.04.30-09.56.44:081][149]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.04.30-09.56.44:081][149]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.04.30-09.56.44:081][149]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.04.30-09.56.44:081][149]LogAudio: Display: Using built-in audio occlusion.
-[2021.04.30-09.56.44:081][149]LogAudioMixer: Display: Initializing audio mixer.
-[2021.04.30-09.56.44:084][149]LogAudioMixer: Display: 0: FrontLeft
-[2021.04.30-09.56.44:084][149]LogAudioMixer: Display: 1: FrontRight
-[2021.04.30-09.56.44:104][149]LogAudioMixer: Display: Using Audio Device LEN T24i-10 (NVIDIA High Definition Audio)
-[2021.04.30-09.56.44:105][149]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.04.30-09.56.44:105][149]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.04.30-09.56.44:105][149]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.04.30-09.56.44:105][149]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.04.30-09.56.44:105][149]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
-[2021.04.30-09.56.44:106][149]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
-[2021.04.30-09.56.44:118][149]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
-[2021.04.30-09.56.44:118][149]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
-[2021.04.30-09.56.44:118][149]LogInit: FAudioDevice initialized.
-[2021.04.30-09.56.44:118][149]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonExampleMap'.
-[2021.04.30-09.56.44:127][149]LogLoad: Game class is 'FGAIGameMode'
-[2021.04.30-09.56.44:129][149]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.04.30-11.56.44
-[2021.04.30-09.56.44:129][149]LogWorld: Bringing up level for play took: 0.001510
-[2021.04.30-09.56.44:129][149]LogOnline: OSS: Creating online subsystem instance for: :Context_10
-[2021.04.30-09.56.44:132][149]PIE: Server logged in
-[2021.04.30-09.56.44:133][149]PIE: Play in editor total start time 0,084 seconds.
-[2021.04.30-09.56.57:041][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-09.56.57:042][691]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
-[2021.04.30-09.56.57:042][691]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2021.04.30-09.56.57:042][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.30-09.56.57:058][691]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.04.30-09.56.57:068][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.30-09.56.57:083][691]LogAudio: Display: Audio Device unregistered from world 'None'.
-[2021.04.30-09.56.57:083][691]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
-[2021.04.30-09.56.57:084][691]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
-[2021.04.30-09.56.57:108][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-09.56.57:110][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
-[2021.04.30-09.56.57:138][692]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.04.30-10.01.24:770][  0]SourceControl: Root C:\Users\Esteban.Morales\Perforce\AIAssignment
+[2021.04.30-10.01.24:770][  0]SourceControl: Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2021.04.30-10.01.24:770][  0]SourceControl: SubmitOptions submitunchanged
+[2021.04.30-10.01.24:770][  0]SourceControl: LineEnd local
+[2021.04.30-10.01.24:770][  0]SourceControl: View0 //FG20FT_AI_Team6/... //AIAssignment/FG20FT_AI_Team6/...
+[2021.04.30-10.01.24:770][  0]SourceControl: specFormatted 
+[2021.04.30-10.01.24:770][  0]SourceControl: func client-FstatInfo
+[2021.04.30-10.01.24:770][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.04.30-10.01.24:814][  0]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Config/DefaultEngine.ini C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/FGAIGameMode.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/StateMachine/FGAIStateBase.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/StateMachine/FGAIStateMachineSheet.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/FGCharacter.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/FGEnemy.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/Components/FGMovementComponent.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/Movement/FGNavMovementComponent.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/StateMachine/FGStateMachineComponent.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/Sensing/FGVisionSensingComponent.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/Sensing/FGVisionSensingSettings.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/AI/Sensing/FGVisionSensingTargetComponent.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/MySoundProjectile.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/SoundProjectile.h'
+[2021.04.30-10.01.24:877][  0]LogRenderer: Reallocating scene render targets to support 1140x572 Format 10 NumSamples 1 (Frame:2).
+[2021.04.30-10.01.24:877][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.04.30-10.01.25:920][114]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_AIController.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_Enemy.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_GameMode_Default.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/BP_Player.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/CubeMovable.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/DA_EnemyVisionSettings.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset'
+[2021.04.30-10.01.28:304][282]LogSlate: Window 'Message Log' being destroyed
+[2021.04.30-10.01.28:308][282]LogSlate: Window 'Message Log' being destroyed
+[2021.04.30-10.01.30:038][487]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.30-10.01.30:043][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.30-10.01.30:043][487]PIE: New page: PIE session: FirstPersonExampleMap (30 Apr 2021, 14:01:30)
+[2021.04.30-10.01.30:045][487]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.04.30-10.01.30:047][487]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.04.30-10.01.30:048][487]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-10.01.30:059][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011547s)
+[2021.04.30-10.01.30:060][487]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.04.30-10.01.30:060][487]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2021.04.30-10.01.30:060][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012837s)
+[2021.04.30-10.01.30:065][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.04.30-10.01.30:068][487]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.04.30-10.01.30:068][487]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-10.01.30:068][487]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-10.01.30:068][487]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-10.01.30:068][487]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-10.01.30:069][487]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-10.01.30:069][487]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-10.01.30:069][487]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-10.01.30:069][487]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-10.01.30:069][487]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-10.01.30:070][487]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-10.01.30:073][487]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-10.01.30:073][487]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-10.01.30:095][487]LogAudioMixer: Display: Using Audio Device LEN T24i-10 (NVIDIA High Definition Audio)
+[2021.04.30-10.01.30:095][487]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-10.01.30:095][487]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-10.01.30:096][487]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-10.01.30:096][487]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-10.01.30:096][487]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.04.30-10.01.30:096][487]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.04.30-10.01.30:111][487]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.04.30-10.01.30:111][487]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.04.30-10.01.30:111][487]LogInit: FAudioDevice initialized.
+[2021.04.30-10.01.30:111][487]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonExampleMap'.
+[2021.04.30-10.01.30:123][487]LogLoad: Game class is 'FGAIGameMode'
+[2021.04.30-10.01.30:125][487]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.04.30-12.01.30
+[2021.04.30-10.01.30:126][487]LogWorld: Bringing up level for play took: 0.001817
+[2021.04.30-10.01.30:126][487]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.04.30-10.01.30:130][487]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.04.30-10.01.30:130][487]PIE: Server logged in
+[2021.04.30-10.01.30:132][487]PIE: Play in editor total start time 0,09 seconds.
+[2021.04.30-10.01.43:958][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-10.01.43:958][133]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.04.30-10.01.43:958][133]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-10.01.43:958][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-10.01.43:972][133]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.30-10.01.43:974][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-10.01.43:978][133]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.04.30-10.01.43:978][133]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.04.30-10.01.43:980][133]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.04.30-10.01.44:007][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-10.01.44:008][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.04.30-10.01.44:024][134]LogPlayLevel: Display: Destroying online subsystem :Context_5
