@@ -1013,3 +1013,874 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.01-17.04.32:160][784]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Container40_StaticMesh]
 [2021.05.01-17.04.32:165][784]LogSavePackage: Moving '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Container40_StaticMesh_Auto12CBE49CC452A0C7F4C53099ABC3B4F87.tmp' to '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Autosaves/Game/Geometry/Container40_StaticMesh_Auto1.uasset'
 [2021.05.01-17.04.32:166][784]LogFileHelpers: Auto-saving content packages took 0.028
+[2021.05.01-17.05.07:514][720]LogEditorViewport: Clicking on Actor (LMB): CubeMovable_C (CubeMovable)
+[2021.05.01-17.05.27:557][959]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.01-17.05.27:563][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.01-17.05.27:563][959]PIE: New page: PIE session: PrototypeInUE4_Level_2 (1 May 2021, 21:05:27)
+[2021.05.01-17.05.27:588][959]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PrototypeInUE4_Level_2
+[2021.05.01-17.05.27:620][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032002s)
+[2021.05.01-17.05.27:621][959]LogAIModule: Creating AISystem for world PrototypeInUE4_Level_2
+[2021.05.01-17.05.27:621][959]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2021.05.01-17.05.27:621][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2 to /Game/Maps/UEDPIE_0_PrototypeInUE4_Level_2.PrototypeInUE4_Level_2 (0.033212s)
+[2021.05.01-17.05.27:662][959]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.05.01-17.05.27:665][959]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.05.01-17.05.27:665][959]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.01-17.05.27:665][959]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.01-17.05.27:665][959]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.01-17.05.27:665][959]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.01-17.05.27:665][959]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.01-17.05.27:665][959]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.01-17.05.27:665][959]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.01-17.05.27:665][959]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.01-17.05.27:665][959]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.01-17.05.27:665][959]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.01-17.05.27:669][959]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.01-17.05.27:669][959]LogAudioMixer: Display: 1: FrontRight
+[2021.05.01-17.05.27:679][959]LogAudioMixer: Display: Using Audio Device LEN T24i-10 (NVIDIA High Definition Audio)
+[2021.05.01-17.05.27:679][959]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.01-17.05.27:679][959]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.01-17.05.27:679][959]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.01-17.05.27:679][959]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.01-17.05.27:679][959]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.01-17.05.27:679][959]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.01-17.05.27:680][959]LogInit: FAudioDevice initialized.
+[2021.05.01-17.05.27:680][959]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.01-17.05.27:680][959]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.01-17.05.27:680][959]LogAudio: Display: Audio Device (ID: 4) registered with world 'PrototypeInUE4_Level_2'.
+[2021.05.01-17.05.27:696][959]LogLoad: Game class is 'FGAIGameMode'
+[2021.05.01-17.05.27:699][959]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PrototypeInUE4_Level_2.PrototypeInUE4_Level_2 up for play (max tick rate 0) at 2021.05.01-19.05.27
+[2021.05.01-17.05.27:699][959]LogWorld: Bringing up level for play took: 0.002850
+[2021.05.01-17.05.27:699][959]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.05.01-17.05.27:701][959]PIE: Server logged in
+[2021.05.01-17.05.27:702][959]PIE: Play in editor total start time 0,14 seconds.
+[2021.05.01-17.05.28:859][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.01-17.05.28:859][ 85]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PrototypeInUE4_Level_2
+[2021.05.01-17.05.28:859][ 85]LogWorld: UWorld::CleanupWorld for PrototypeInUE4_Level_2, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-17.05.28:859][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-17.05.28:866][ 85]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.01-17.05.28:877][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-17.05.28:895][ 85]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.01-17.05.28:895][ 85]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.01-17.05.28:896][ 85]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.01-17.05.28:911][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.01-17.05.28:916][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.05.01-17.05.28:946][ 86]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.05.01-17.05.30:443][252]Cmd: SELECT NONE
+[2021.05.01-17.05.35:136][793]LogEditorViewport: Clicking on Actor (LMB): CubeMovable_C (CubeMovable)
+[2021.05.01-17.05.36:100][897]Cmd: TRANSACTION UNDO
+[2021.05.01-17.05.36:100][897]LogEditorTransaction: Undo Clicking on Actors
+[2021.05.01-17.05.36:640][913]Cmd: TRANSACTION UNDO
+[2021.05.01-17.05.36:641][913]LogEditorTransaction: Undo Select None
+[2021.05.01-17.05.37:023][943]Cmd: TRANSACTION UNDO
+[2021.05.01-17.05.37:023][943]LogEditorTransaction: Undo Move Components
+[2021.05.01-17.05.50:975][382]Cmd: TRANSACTION UNDO
+[2021.05.01-17.05.50:975][382]LogEditorTransaction: Undo Modify Component(s)
+[2021.05.01-17.06.25:676][818]Cmd: EDIT COPY
+[2021.05.01-17.06.25:901][844]Cmd: EDIT PASTE
+[2021.05.01-17.06.25:902][844]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.25:902][844]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.29:763][289]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cube)
+[2021.05.01-17.06.30:527][353]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:527][353]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:554][354]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:554][354]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:580][355]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:580][355]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:606][356]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:606][356]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:632][357]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:632][357]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:659][358]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:659][358]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:876][382]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:876][382]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:902][383]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:902][383]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:928][384]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:928][384]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:953][385]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:953][385]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:979][386]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.30:979][386]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:006][387]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:006][387]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:031][388]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:031][388]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:065][390]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:065][390]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:091][391]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:091][391]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:117][392]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:117][392]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:143][393]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:143][393]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:169][394]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:169][394]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:246][401]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:246][401]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:272][402]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:272][402]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:298][403]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:298][403]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:424][416]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:424][416]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:450][417]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:450][417]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:477][418]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:477][418]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:603][431]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:603][431]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:628][432]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:629][432]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:654][433]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:654][433]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:680][434]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:681][434]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:707][435]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:707][435]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:775][441]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:775][441]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:826][445]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.31:826][445]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.32:243][493]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.32:243][493]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.32:335][502]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.32:335][502]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.32:394][507]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.32:394][507]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.32:436][510]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.32:436][510]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.32:945][569]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.32:945][569]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.35:698][896]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.35:698][896]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:411][ 71]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:411][ 71]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:437][ 72]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:438][ 72]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:463][ 73]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:463][ 73]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:490][ 74]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:491][ 74]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:517][ 75]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:517][ 75]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:541][ 76]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:541][ 76]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:567][ 77]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:567][ 77]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:593][ 78]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:593][ 78]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:620][ 79]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:620][ 79]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:646][ 80]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:646][ 80]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:672][ 81]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:672][ 81]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:698][ 82]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.37:698][ 82]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.38:790][211]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.38:790][211]PIE: Warning: AttachTo: '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube' is not static  (in blueprint "CubeMovable"), cannot attach '/Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2:PersistentLevel.CubeMovable_2.Cube1' which is static to it. Aborting.
+[2021.05.01-17.06.51:280][656]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/PrototypeInUE4_Level_2.umap'
+[2021.05.01-17.06.51:280][656]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.06.51:344][656]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.05.01-17.06.51:428][656]LogSavePackage: Moving '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/PrototypeInUE4_Level_2B50C925148139D1BE68A99AFDAFF018F.tmp' to '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/PrototypeInUE4_Level_2.umap'
+[2021.05.01-17.06.51:455][656]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/PrototypeInUE4_Level_2_BuiltData.uasset'
+[2021.05.01-17.06.51:455][656]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.06.51:536][656]LogSavePackage: Moving '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/PrototypeInUE4_Level_2_BuiltData6850F78D41C0A7C5E228F196FFF37EBF.tmp' to '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/PrototypeInUE4_Level_2_BuiltData.uasset'
+[2021.05.01-17.06.51:547][656]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.01-17.06.51:547][656]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/PrototypeInUE4_Level_2_BuiltData.PrototypeInUE4_Level_2_BuiltData
+[2021.05.01-17.06.51:547][656]LogContentValidation: Display: Validating World /Game/Maps/PrototypeInUE4_Level_2.PrototypeInUE4_Level_2
+[2021.05.01-17.06.51:563][658]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/PrototypeInUE4_Level_2.umap C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/PrototypeInUE4_Level_2_BuiltData.uasset'
+[2021.05.01-17.06.51:566][658]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.06.52:617][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2021.05.01-17.06.54:846][741]LogSlate: Window 'Save Content' being destroyed
+[2021.05.01-17.06.54:874][741]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Geometry/Container40_StaticMesh.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Geometry/Container40_StaticMesh_Blueprint.uasset'
+[2021.05.01-17.06.54:874][741]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.06.54:901][741]LogSavePackage: Moving '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Container40_StaticMeshEBFFFCCB4A754366BBD78DB525068514.tmp' to '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Geometry/Container40_StaticMesh.uasset'
+[2021.05.01-17.06.54:923][741]LogSourceControl: Attempting 'p4 add C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Geometry/Container40_StaticMesh.uasset'
+[2021.05.01-17.06.54:923][741]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.06.54:951][741]LogSavePackage: Moving '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Container40_StaticMesh_BlueprintCD7E715448E9C44C2336028CC0C6063C.tmp' to '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Geometry/Container40_StaticMesh_Blueprint.uasset'
+[2021.05.01-17.06.54:973][741]LogSourceControl: Attempting 'p4 add C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Geometry/Container40_StaticMesh_Blueprint.uasset'
+[2021.05.01-17.06.54:973][741]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.06.54:994][741]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.01-17.06.54:994][741]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/Container40_StaticMesh.Container40_StaticMesh
+[2021.05.01-17.06.54:994][741]LogContentValidation: Display: Validating Blueprint /Game/Geometry/Container40_StaticMesh_Blueprint.Container40_StaticMesh_Blueprint
+[2021.05.01-17.06.55:010][743]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Geometry/Container40_StaticMesh.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Geometry/Container40_StaticMesh_Blueprint.uasset'
+[2021.05.01-17.06.55:013][743]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.06.58:844][126]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/MySoundProjectile.uasset'
+[2021.05.01-17.06.58:846][126]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.06.59:970][231]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/Esteban_Prototype_Level.umap C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/FirstPersonExampleMap.umap C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/FirstPersonExampleMap_BuiltData.uasset C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/PrototypeInUE4_Level.umap C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/PrototypeInUE4_Level_2.umap C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/PrototypeInUE4_Level_2_BuiltData.uasset'
+[2021.05.01-17.06.59:985][231]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.07.00:193][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.05.01-17.07.00:237][248]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.01-17.07.00:237][248]Cmd: MAP LOAD FILE="../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.01-17.07.00:237][248]LightingResults: New page: Lighting Build
+[2021.05.01-17.07.00:237][248]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2021.05.01-17.07.00:238][248]LogWorld: UWorld::CleanupWorld for PrototypeInUE4_Level_2, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-17.07.00:238][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-17.07.00:238][248]MapCheck: New page: Map Check
+[2021.05.01-17.07.00:238][248]LightingResults: New page: Lighting Build
+[2021.05.01-17.07.00:252][248]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.01-17.07.00:259][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.05.01-17.07.00:260][248]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonExampleMap'.
+[2021.05.01-17.07.00:329][248]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.01-17.07.00:329][248]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.05.01-17.07.00:347][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.05.01-17.07.00:351][248]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.01-17.07.00:352][248]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,103ms to complete.
+[2021.05.01-17.07.00:352][248]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.114
+[2021.05.01-17.07.29:964][778]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.01-17.07.29:970][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.01-17.07.29:970][778]PIE: New page: PIE session: FirstPersonExampleMap (1 May 2021, 21:07:29)
+[2021.05.01-17.07.29:970][778]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.05.01-17.07.29:982][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011904s)
+[2021.05.01-17.07.29:983][778]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.05.01-17.07.29:983][778]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2021.05.01-17.07.29:983][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013149s)
+[2021.05.01-17.07.30:001][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.05.01-17.07.30:004][778]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.05.01-17.07.30:004][778]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.01-17.07.30:004][778]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.01-17.07.30:004][778]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.01-17.07.30:004][778]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.01-17.07.30:004][778]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.01-17.07.30:004][778]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.01-17.07.30:004][778]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.01-17.07.30:004][778]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.01-17.07.30:004][778]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.01-17.07.30:004][778]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.01-17.07.30:006][778]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.01-17.07.30:007][778]LogAudioMixer: Display: 1: FrontRight
+[2021.05.01-17.07.30:014][778]LogAudioMixer: Display: Using Audio Device LEN T24i-10 (NVIDIA High Definition Audio)
+[2021.05.01-17.07.30:015][778]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.01-17.07.30:015][778]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.01-17.07.30:015][778]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.01-17.07.30:015][778]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.01-17.07.30:015][778]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.01-17.07.30:015][778]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.01-17.07.30:016][778]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.01-17.07.30:016][778]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.01-17.07.30:016][778]LogInit: FAudioDevice initialized.
+[2021.05.01-17.07.30:016][778]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonExampleMap'.
+[2021.05.01-17.07.30:029][778]LogLoad: Game class is 'FGAIGameMode'
+[2021.05.01-17.07.30:031][778]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.05.01-19.07.30
+[2021.05.01-17.07.30:031][778]LogWorld: Bringing up level for play took: 0.001367
+[2021.05.01-17.07.30:031][778]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.05.01-17.07.30:033][778]PIE: Server logged in
+[2021.05.01-17.07.30:034][778]PIE: Play in editor total start time 0,066 seconds.
+[2021.05.01-17.07.33:948][242]LogBlueprintUserMessages: [BP_Enemy_2] seen
+[2021.05.01-17.07.34:055][255]LogBlueprintUserMessages: [BP_Enemy_2] lost
+[2021.05.01-17.07.34:448][302]LogBlueprintUserMessages: [BP_Enemy_2] seen
+[2021.05.01-17.07.34:964][364]LogBlueprintUserMessages: [BP_Enemy_2] lost
+[2021.05.01-17.08.52:687][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.01-17.08.52:687][685]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.05.01-17.08.52:688][685]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-17.08.52:688][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-17.08.52:694][685]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.01-17.08.52:697][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-17.08.52:712][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.01-17.08.52:712][685]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.01-17.08.52:713][685]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.01-17.08.52:729][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.05.01-17.08.52:768][687]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.05.01-17.09.01:442][725]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
+[2021.05.01-17.09.01:442][725]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
+[2021.05.01-17.09.01:442][725]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
+[2021.05.01-17.09.01:442][725]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Content\BasicShapes\Cube.uasset: Failed to load '/Game/Cube': Can't find file.
+[2021.05.01-17.09.01:442][725]LoadErrors: Failed to load /Game/Cube.Cube Referenced by Cube
+[2021.05.01-17.09.05:765][ 99]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/FirstPersonExampleMap.umap'
+[2021.05.01-17.09.05:776][100]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.09.20:255][748]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2021.05.01-17.09.22:562][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.01-17.09.24:666][216]Cmd: TRANSACTION UNDO
+[2021.05.01-17.09.24:666][216]LogEditorTransaction: Undo Move Actors
+[2021.05.01-17.09.25:292][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.01-17.09.25:943][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.01-17.09.26:618][365]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.05.01-17.09.39:023][817]Cmd: DELETE
+[2021.05.01-17.09.39:023][817]Cmd: ACTOR DELETE
+[2021.05.01-17.09.39:029][817]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2021.05.01-17.09.39:046][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.05.01-17.09.39:050][817]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2021.05.01-17.09.39:051][817]LogNavigation: Warning: ConstructTiledNavMesh: Failed to create navmesh of size 0.
+[2021.05.01-17.13.19:252][198]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/FGAIGameMode.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/FGCharacter.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/FGEnemy.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/FGNoiseSensingComponent.h C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Source/FGAI/SoundProjectile.h'
+[2021.05.01-17.13.19:254][198]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.13.28:885][357]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2021.05.01-17.18.23:062][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.05.01-17.18.23:083][744]LogSavePackage: Moving '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/FirstPersonExampleMap_Auto223A07E114C472DE501B6FC8C6689540F.tmp' to '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto2.umap'
+[2021.05.01-17.18.23:084][744]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstPersonExampleMap' took 0.040
+[2021.05.01-17.18.23:084][744]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.040
+[2021.05.01-17.29.36:245][832]LogSlate: Window 'BP_Enemy' being destroyed
+[2021.05.01-17.29.36:248][832]LogSlate: Window 'BP_Enemy' being destroyed
+[2021.05.01-17.29.36:283][832]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-17.29.36:283][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-17.29.39:845][250]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/FirstPersonExampleMap.umap'
+[2021.05.01-17.29.39:845][250]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.29.39:884][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.05.01-17.29.39:900][250]LogSavePackage: Moving '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/FirstPersonExampleMapC5CE980F4748EC0951E813B33D7BFE73.tmp' to '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/FirstPersonExampleMap.umap'
+[2021.05.01-17.29.39:928][250]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.01-17.29.39:928][250]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.29.40:534][250]LogSavePackage: Moving '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Saved/FirstPersonExampleMap_BuiltDataE1AC6BE5419CE61AE064D7AE52B321BA.tmp' to '../../../../../../Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.01-17.29.40:571][250]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.01-17.29.40:571][250]LogContentValidation: Display: Validating World /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.01-17.29.40:571][250]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.05.01-17.29.40:585][251]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/FirstPersonExampleMap.umap C:/Users/Esteban.Morales/Perforce/AIAssignment/FG20FT_AI_Team6/FGAIGame/FGAI/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.01-17.29.40:595][252]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+
+[2021.05.01-17.29.41:730][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.05.01-17.29.44:958][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.05.01-17.29.44:973][747]LogSlate: Window 'FGAI - Unreal Editor' being destroyed
+[2021.05.01-17.29.44:974][747]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.05.01-17.29.45:052][748]Cmd: QUIT_EDITOR
+[2021.05.01-17.29.45:052][748]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.05.01-17.29.45:054][748]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.05.01-17.29.45:797][748]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2021.05.01-17.29.45:797][748]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2021.05.01-17.29.45:797][748]LogAudio: Display: Audio Device unregistered from world 'FirstPersonExampleMap'.
+[2021.05.01-17.29.45:797][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.01-17.29.45:799][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.01-17.29.45:823][748]LogAudio: Display: Audio Device Manager Shutdown
+[2021.05.01-17.29.45:826][748]LogExit: Preparing to exit.
+[2021.05.01-17.29.46:392][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1D5E00] Windows
+[2021.05.01-17.29.46:392][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1D5C00] Default__DeviceProfile
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1A2500] WindowsNoEditor
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1D7900] WindowsServer
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1A2100] WindowsClient
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1D6D00] IOS
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1A0800] iPadAir
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1D7B00] iPadAir2
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BB200] IPadPro
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BB300] iPadAir3
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1D4200] iPadAir4
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BB500] iPadMini2
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1D4E00] iPadMini3
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B9400] iPadMini4
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1D5000] iPadMini5
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C192B00] iPhone6
+[2021.05.01-17.29.46:393][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C192C00] iPodTouch6
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BBC00] iPhone7
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BBB00] iPodTouch7
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C190E00] iPhone5S
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BBD00] iPhone6Plus
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C191200] iPhone6S
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BA800] iPhone6SPlus
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C192D00] iPhone7Plus
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BB800] iPhoneSE
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C193200] iPhone8
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B9600] iPhone8Plus
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C191F00] iPhoneX
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B9D00] iPhoneXS
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C190300] iPhoneXSMax
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B8400] iPhoneXR
+[2021.05.01-17.29.46:394][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C192500] iPhone11
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BA500] iPhone11Pro
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C190600] iPhone11ProMax
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B8E00] iPhoneSE2
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C191400] iPhone12Mini
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B9E00] iPhone12
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C193400] iPhone12Pro
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B8200] iPhone12ProMax
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C191B00] iPadPro105
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C193600] iPadPro129
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1A1D00] iPadPro97
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C190C00] iPadPro2_129
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1A2700] iPad5
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C190500] iPad6
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1A0B00] iPad7
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C193800] iPad8
+[2021.05.01-17.29.46:395][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1A1200] iPadPro11
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C191A00] iPadPro2_11
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1A0700] iPadPro3_129
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1A2400] iPadPro4_129
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BB700] AppleTV
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1A0300] AppleTV4K
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BB400] TVOS
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1A1F00] Mac
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B8100] MacClient
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C193500] MacNoEditor
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BBE00] MacServer
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C191D00] Linux
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B9000] LinuxNoEditor
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C190800] LinuxAArch64NoEditor
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BA100] LinuxClient
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C192E00] LinuxAArch64Client
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B8C00] LinuxServer
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C193900] LinuxAArch64Server
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B8300] Android
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C192F00] Android_Low
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BA600] Android_Mid
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C193700] Android_High
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BA000] Android_Default
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C193300] Android_Adreno4xx
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B8F00] Android_Adreno5xx_Low
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C193E00] Android_Adreno5xx
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B9500] Android_Adreno6xx
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C192900] Android_Adreno6xx_Vulkan
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BAF00] Android_Mali_T6xx
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C193000] Android_Mali_T7xx
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BA300] Android_Mali_T8xx
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C190B00] Android_Mali_G71
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B8D00] Android_Mali_G72
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C190D00] Android_Mali_G72_Vulkan
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B9300] Android_Mali_G76
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C191800] Android_Mali_G76_Vulkan
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B8700] Android_Mali_G77
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C191700] Android_Mali_G77_Vulkan
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BA400] Android_Vulkan_SM5
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C191600] Android_PowerVR_G6xxx
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B8B00] Android_PowerVR_GT7xxx
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C192A00] Android_PowerVR_GE8xxx
+[2021.05.01-17.29.46:396][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0B8900] Android_PowerVR_GM9xxx
+[2021.05.01-17.29.46:397][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C190100] Android_PowerVR_GM9xxx_Vulkan
+[2021.05.01-17.29.46:397][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C0BB900] Android_TegraK1
+[2021.05.01-17.29.46:397][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C192600] Android_Unknown_Vulkan
+[2021.05.01-17.29.46:397][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1A3900] Lumin
+[2021.05.01-17.29.46:397][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1D7700] Lumin_Desktop
+[2021.05.01-17.29.46:397][748]LogDeviceProfile: Device profile begin destroy: [0000027E1C1A2200] HoloLens
+[2021.05.01-17.29.46:407][748]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-17.29.46:408][748]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-17.29.46:409][748]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-17.29.46:410][748]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-17.29.46:411][748]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-17.29.46:411][748]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-17.29.46:412][748]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-17.29.46:446][748]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.05.01-17.29.46:454][748]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-17.29.46:454][748]LogExit: Editor shut down
+[2021.05.01-17.29.46:454][748]LogExit: Transaction tracking system shut down
+[2021.05.01-17.29.46:638][748]LogExit: Object subsystem successfully closed.
+[2021.05.01-17.29.46:660][748]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.05.01-17.29.46:695][748]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (822)
+[2021.05.01-17.29.46:695][748]LogModuleManager: Shutting down and abandoning module Voice (820)
+[2021.05.01-17.29.46:695][748]LogModuleManager: Shutting down and abandoning module BlueprintGraph (818)
+[2021.05.01-17.29.46:695][748]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (816)
+[2021.05.01-17.29.46:695][748]LogModuleManager: Shutting down and abandoning module SceneOutliner (814)
+[2021.05.01-17.29.46:695][748]LogModuleManager: Shutting down and abandoning module AddContentDialog (812)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module WidgetCarousel (811)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module EditorWidgets (808)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module StatsViewer (806)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (804)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (802)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module AutomationWorker (800)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module SteamVREditor (798)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module OculusMR (796)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module GooglePADEditor (794)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (792)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (790)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (788)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (786)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (784)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (782)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (780)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (778)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (776)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module WebMMedia (774)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (772)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (770)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module SequenceRecorder (769)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (766)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (764)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (762)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (760)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (758)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (756)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (754)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module PlanarCut (752)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (750)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (748)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (746)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module CharacterAI (744)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module TextureAlignMode (742)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module BspMode (740)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module GeometryMode (738)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (736)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module SmartSnapping (734)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module SessionServices (732)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module MeshPaint (730)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (728)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module FoliageEdit (726)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module LandscapeEditor (724)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module MeshPaintMode (722)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (720)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module ActorPickerMode (718)
+[2021.05.01-17.29.46:696][748]LogModuleManager: Shutting down and abandoning module PlacementMode (716)
+[2021.05.01-17.29.46:697][748]LogModuleManager: Shutting down and abandoning module ViewportSnapping (714)
+[2021.05.01-17.29.46:697][748]LogModuleManager: Shutting down and abandoning module ViewportInteraction (712)
+[2021.05.01-17.29.46:697][748]LogModuleManager: Shutting down and abandoning module ClothPainter (710)
+[2021.05.01-17.29.46:697][748]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (709)
+[2021.05.01-17.29.46:697][748]LogModuleManager: Shutting down and abandoning module LogVisualizer (706)
+[2021.05.01-17.29.46:697][748]LogModuleManager: Shutting down and abandoning module IntroTutorials (704)
+[2021.05.01-17.29.46:697][748]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (703)
+[2021.05.01-17.29.46:697][748]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (700)
+[2021.05.01-17.29.46:697][748]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (698)
+[2021.05.01-17.29.46:697][748]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (696)
+[2021.05.01-17.29.46:697][748]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (695)
+[2021.05.01-17.29.46:746][748]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (692)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (690)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (688)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (686)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module TraceInsights (684)
+[2021.05.01-17.29.46:747][748]MemoryProfiler: Shutdown
+[2021.05.01-17.29.46:747][748]NetworkingProfiler: Shutdown
+[2021.05.01-17.29.46:747][748]LoadingProfiler: Shutdown
+[2021.05.01-17.29.46:747][748]TimingProfiler: Shutdown
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module TraceServices (683)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (680)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (678)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module InputBindingEditor (676)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module MergeActors (674)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (672)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module LocalizationService (671)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module HardwareTargeting (668)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (666)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module UndoHistory (664)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module XmlParser (662)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module Blutility (660)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (658)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (657)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (654)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (653)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module SettingsEditor (650)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module ProjectLauncher (648)
+[2021.05.01-17.29.46:747][748]LogModuleManager: Shutting down and abandoning module SessionFrontend (646)
+[2021.05.01-17.29.46:748][748]LogModuleManager: Shutting down and abandoning module ProfilerClient (644)
+[2021.05.01-17.29.46:748][748]LogModuleManager: Shutting down and abandoning module DeviceManager (642)
+[2021.05.01-17.29.46:748][748]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (641)
+[2021.05.01-17.29.46:781][748]LogModuleManager: Shutting down and abandoning module AutomationController (638)
+[2021.05.01-17.29.46:781][748]LogModuleManager: Shutting down and abandoning module AutomationWindow (636)
+[2021.05.01-17.29.46:781][748]LogModuleManager: Shutting down and abandoning module Layers (634)
+[2021.05.01-17.29.46:781][748]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (632)
+[2021.05.01-17.29.46:781][748]LogModuleManager: Shutting down and abandoning module DetailCustomizations (630)
+[2021.05.01-17.29.46:781][748]LogModuleManager: Shutting down and abandoning module PackagesDialog (628)
+[2021.05.01-17.29.46:781][748]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (626)
+[2021.05.01-17.29.46:781][748]LogModuleManager: Shutting down and abandoning module Persona (624)
+[2021.05.01-17.29.46:781][748]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (623)
+[2021.05.01-17.29.46:781][748]LogModuleManager: Shutting down and abandoning module AnimGraph (621)
+[2021.05.01-17.29.46:781][748]LogModuleManager: Shutting down and abandoning module Kismet (618)
+[2021.05.01-17.29.46:787][748]LogModuleManager: Shutting down and abandoning module KismetWidgets (617)
+[2021.05.01-17.29.46:787][748]LogModuleManager: Shutting down and abandoning module GraphEditor (614)
+[2021.05.01-17.29.46:787][748]LogModuleManager: Shutting down and abandoning module StructViewer (612)
+[2021.05.01-17.29.46:787][748]LogModuleManager: Shutting down and abandoning module ClassViewer (610)
+[2021.05.01-17.29.46:788][748]LogModuleManager: Shutting down and abandoning module Toolbox (608)
+[2021.05.01-17.29.46:788][748]LogModuleManager: Shutting down and abandoning module ModuleUI (606)
+[2021.05.01-17.29.46:788][748]LogModuleManager: Shutting down and abandoning module OutputLog (604)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module GammaUI (602)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module Documentation (600)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module LiveCoding (598)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module LevelSequence (596)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (594)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module MovieScene (592)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (590)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module LauncherPlatform (588)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module AnalyticsET (586)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module PortalServices (584)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module PortalRpc (582)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module MessagingRpc (580)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (578)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module AudioMixerCore (577)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module AIModule (574)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module GameplayDebugger (573)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module AITestSuite (571)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module NavigationSystem (569)
+[2021.05.01-17.29.46:789][748]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (566)
+[2021.05.01-17.29.46:792][748]LogModuleManager: Shutting down and abandoning module ProfilerService (564)
+[2021.05.01-17.29.47:023][748]LogModuleManager: Shutting down and abandoning module TaskGraph (562)
+[2021.05.01-17.29.47:023][748]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (560)
+[2021.05.01-17.29.47:023][748]LogModuleManager: Shutting down and abandoning module OculusEditor (558)
+[2021.05.01-17.29.47:023][748]LogModuleManager: Shutting down and abandoning module OculusInput (556)
+[2021.05.01-17.29.47:023][748]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (554)
+[2021.05.01-17.29.47:023][748]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (552)
+[2021.05.01-17.29.47:023][748]LogModuleManager: Shutting down and abandoning module CollectionManager (551)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module SynthesisEditor (548)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module Synthesis (546)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (544)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (542)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (540)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module GooglePAD (536)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module EditableMesh (534)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (532)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module CableComponent (530)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module AudioCapture (528)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (527)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module AssetTags (524)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (522)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (520)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module AppleImageUtils (518)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module AndroidPermission (516)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (514)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (512)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module TemplateSequence (510)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module MediaCompositing (508)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module ImgMedia (506)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (504)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module MotoSynth (502)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (500)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (498)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (496)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (494)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (492)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (490)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module MeshConversion (488)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module DynamicMesh (486)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (484)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module GeometricObjects (482)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (480)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (479)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (476)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (474)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (472)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (470)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (468)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module ChaosNiagara (466)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (464)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module FractureEditor (462)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (461)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module BackChannel (458)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (456)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module AutomationUtils (454)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module AlembicImporter (452)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module AlembicLibrary (451)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module GeometryCache (450)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (449)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (444)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (442)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (440)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (438)
+[2021.05.01-17.29.47:024][748]LogModuleManager: Shutting down and abandoning module PluginBrowser (436)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (434)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module CurveEditorTools (432)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (430)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module CryptoKeys (428)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (426)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module UObjectPlugin (424)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (422)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (420)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (418)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module PluginUtils (416)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (414)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (412)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module GitSourceControl (410)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module SourceControl (409)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (406)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (404)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (402)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (400)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (398)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module Paper2DEditor (396)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (394)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (392)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module FGAI (390)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module SoundFields (388)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module SignificanceManager (386)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (384)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (382)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (380)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (376)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (374)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (372)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module ActorSequence (370)
+[2021.05.01-17.29.47:025][748]LogModuleManager: Shutting down and abandoning module UdpMessaging (368)
+[2021.05.01-17.29.47:126][748]LogModuleManager: Shutting down and abandoning module TcpMessaging (366)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (364)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (362)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (360)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (358)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (356)
+[2021.05.01-17.29.47:227][748]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (354)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (352)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (350)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (348)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module MagicLeapController (346)
+[2021.05.01-17.29.47:227][748]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (344)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module MagicLeapAR (342)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module AugmentedReality (341)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (338)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module Niagara (336)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module SignalProcessing (335)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module NiagaraEditor (333)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module NiagaraCore (330)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (328)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (326)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module FacialAnimation (324)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module DataValidation (322)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (320)
+[2021.05.01-17.29.47:227][748]LogModuleManager: Shutting down and abandoning module LevelEditor (319)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (318)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (316)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module MainFrame (314)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module HotReload (313)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module ToolMenus (309)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module ContentBrowser (307)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module ContentBrowserData (306)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module TreeMap (303)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (300)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module AnimationSharing (298)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (296)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (294)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module Paper2D (292)
+[2021.05.01-17.29.47:228][748]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (290)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (288)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (286)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module PacketHandler (284)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (282)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (280)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module MediaAssets (278)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module Overlay (276)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module OverlayEditor (275)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module VREditor (272)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module StringTableEditor (270)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (268)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (266)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module FunctionalTesting (264)
+[2021.05.01-17.29.47:229][748]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (262)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (261)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module UMG (258)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module UMGEditor (257)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module MessageLog (255)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module SlateReflector (250)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module Slate (248)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module SlateCore (246)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (244)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module UnrealEd (242)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module MRMesh (240)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (238)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (236)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module XAudio2 (234)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module Networking (232)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module Core (230)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module MovieSceneTools (228)
+[2021.05.01-17.29.47:230][748]LogModuleManager: Shutting down and abandoning module CurveEditor (227)
+[2021.05.01-17.29.47:231][748]LogModuleManager: Shutting down and abandoning module Sequencer (225)
+[2021.05.01-17.29.47:231][748]LogModuleManager: Shutting down and abandoning module EditorStyle (224)
+[2021.05.01-17.29.47:231][748]LogModuleManager: Shutting down and abandoning module KismetCompiler (220)
+[2021.05.01-17.29.47:231][748]LogModuleManager: Shutting down and abandoning module MeshBuilder (218)
+[2021.05.01-17.29.47:231][748]LogModuleManager: Shutting down and abandoning module MeshUtilities (216)
+[2021.05.01-17.29.47:231][748]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (215)
+[2021.05.01-17.29.47:231][748]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (214)
+[2021.05.01-17.29.47:231][748]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (213)
+[2021.05.01-17.29.47:231][748]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (211)
+[2021.05.01-17.29.47:231][748]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (209)
+[2021.05.01-17.29.47:231][748]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (207)
+[2021.05.01-17.29.47:231][748]LogModuleManager: Shutting down and abandoning module MaterialBaking (203)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (198)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module DerivedDataCache (196)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module TargetPlatform (194)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (191)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (189)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (187)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (185)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (183)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (181)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (179)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (177)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (175)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (173)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module ImageWrapper (172)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (169)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (167)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (165)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (163)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (161)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (159)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (157)
+[2021.05.01-17.29.47:232][748]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (155)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (153)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (151)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (149)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (147)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (145)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (143)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (141)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (139)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (137)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (135)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (133)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (131)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module Messaging (129)
+[2021.05.01-17.29.47:233][748]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (127)
+[2021.05.01-17.29.47:234][748]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (125)
+[2021.05.01-17.29.47:237][748]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (123)
+[2021.05.01-17.29.47:237][748]LogModuleManager: Shutting down and abandoning module InputCore (120)
+[2021.05.01-17.29.47:237][748]LogModuleManager: Shutting down and abandoning module Settings (118)
+[2021.05.01-17.29.47:237][748]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (116)
+[2021.05.01-17.29.47:237][748]LogModuleManager: Shutting down and abandoning module PhysXCooking (114)
+[2021.05.01-17.29.47:237][748]LogModuleManager: Shutting down and abandoning module Chaos (112)
+[2021.05.01-17.29.47:237][748]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (110)
+[2021.05.01-17.29.47:237][748]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (109)
+[2021.05.01-17.29.47:237][748]LogModuleManager: Shutting down and abandoning module AVEncoder (108)
+[2021.05.01-17.29.47:237][748]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (104)
+[2021.05.01-17.29.47:237][748]LogModuleManager: Shutting down and abandoning module SteamVRInput (102)
+[2021.05.01-17.29.47:237][748]LogModuleManager: Shutting down and abandoning module SteamVR (100)
+[2021.05.01-17.29.47:238][748]LogHMD: Freeing OpenVRDLLHandle.
+[2021.05.01-17.29.47:238][748]LogModuleManager: Shutting down and abandoning module OculusHMD (98)
+[2021.05.01-17.29.47:238][748]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2021.05.01-17.29.47:238][748]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2021.05.01-17.29.47:238][748]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (92)
+[2021.05.01-17.29.47:238][748]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (90)
+[2021.05.01-17.29.47:238][748]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (86)
+[2021.05.01-17.29.47:239][748]LogModuleManager: Shutting down and abandoning module XMPP (81)
+[2021.05.01-17.29.47:239][748]LogModuleManager: Shutting down and abandoning module WebSockets (80)
+[2021.05.01-17.29.47:272][748]LogModuleManager: Shutting down and abandoning module HTTP (77)
+[2021.05.01-17.29.47:272][748]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.05.01-17.29.47:272][748]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00571CDF-44F1-10AD-354E-65A9D8EA914E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.1-15228867%2B%2B%2BUE4%2BRelease-4.26&UserID=2fdac23e466fcd5879081eba1967bbdb%7Cbc38d30ff16944a2a6d8cc2a7df2c263%7C883194d8-3e6d-4d0d-b73f-9d31bb34737b&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2021.05.01-17.29.47:272][748]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2021.05.01-17.29.47:300][748]LogModuleManager: Shutting down and abandoning module SSL (76)
+[2021.05.01-17.29.47:301][748]LogModuleManager: Shutting down and abandoning module WmfMedia (72)
+[2021.05.01-17.29.47:303][748]LogModuleManager: Shutting down and abandoning module Media (71)
+[2021.05.01-17.29.47:303][748]LogModuleManager: Shutting down and abandoning module MediaInfo (70)
+[2021.05.01-17.29.47:303][748]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (66)
+[2021.05.01-17.29.47:303][748]LogModuleManager: Shutting down and abandoning module MLSDK (64)
+[2021.05.01-17.29.47:303][748]LogModuleManager: Shutting down and abandoning module MagicLeap (62)
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (60)
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module NiagaraShader (58)
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module ChaosCloth (56)
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module XGEController (40)
+[2021.05.01-17.29.47:304][748]LogXGEController: Cleaning working directory: C:/Users/Esteban.Morales/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2021.05.01-17.29.47:304][748]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.05.01-17.29.47:305][748]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.05.01-17.29.47:305][748]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.05.01-17.29.47:306][748]LogD3D11RHI: Shutdown
+[2021.05.01-17.29.47:306][748]LogD3D11RHI: CleanupD3DDevice
+[2021.05.01-17.29.47:315][748]LogExit: Exiting.
+[2021.05.01-17.29.47:320][748]Log file closed, 05/01/21 19:29:47
