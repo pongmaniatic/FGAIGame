@@ -21,7 +21,7 @@ class AFGCharacter : public APawn
 public:
 
 	UPROPERTY(BlueprintReadWrite, Category = "Sound")
-	TArray<FVector> AllSoundPositions;
+	TArray<AActor*> AllSoundPositions;
 
 	UPROPERTY(BlueprintAssignable, Category = "Delegate")
 		FLisenToSounds EnemiesLisen;

@@ -20,6 +20,9 @@ public:
 	FVector heardSoundPosition;
 
 	UPROPERTY(BlueprintReadWrite, Category = "Sound")
+	AActor* heardSoundObject;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Sound")
 	bool heardSomething;
 
 

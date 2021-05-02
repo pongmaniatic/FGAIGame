@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeFGNoiseSensingComponent() {}
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_FGAI();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(UFGNoiseSensingComponent::execLisen)
 	{
@@ -73,6 +74,10 @@ void EmptyLinkFunctionForGeneratedCodeFGNoiseSensingComponent() {}
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_heardSoundPosition;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_heardSoundObject_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_heardSoundObject;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_heardSomething_MetaData[];
 #endif
 		static void NewProp_heardSomething_SetBit(void* Obj);
@@ -104,6 +109,13 @@ void EmptyLinkFunctionForGeneratedCodeFGNoiseSensingComponent() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSoundPosition = { "heardSoundPosition", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UFGNoiseSensingComponent, heardSoundPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSoundPosition_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSoundPosition_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSoundObject_MetaData[] = {
+		{ "Category", "Sound" },
+		{ "ModuleRelativePath", "FGNoiseSensingComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSoundObject = { "heardSoundObject", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UFGNoiseSensingComponent, heardSoundObject), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSoundObject_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSoundObject_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSomething_MetaData[] = {
 		{ "Category", "Sound" },
 		{ "ModuleRelativePath", "FGNoiseSensingComponent.h" },
@@ -116,6 +128,7 @@ void EmptyLinkFunctionForGeneratedCodeFGNoiseSensingComponent() {}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSomething = { "heardSomething", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UFGNoiseSensingComponent), &Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSomething_SetBit, METADATA_PARAMS(Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSomething_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSomething_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFGNoiseSensingComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSoundPosition,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSoundObject,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFGNoiseSensingComponent_Statics::NewProp_heardSomething,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UFGNoiseSensingComponent_Statics::StaticCppClassTypeInfo = {
@@ -145,7 +158,7 @@ void EmptyLinkFunctionForGeneratedCodeFGNoiseSensingComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UFGNoiseSensingComponent, 1573316510);
+	IMPLEMENT_CLASS(UFGNoiseSensingComponent, 2377139417);
 	template<> FGAI_API UClass* StaticClass<UFGNoiseSensingComponent>()
 	{
 		return UFGNoiseSensingComponent::StaticClass();

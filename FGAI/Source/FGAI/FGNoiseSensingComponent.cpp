@@ -26,22 +26,20 @@ void UFGNoiseSensingComponent::BeginPlay()
 
 void UFGNoiseSensingComponent::Lisen()
 {
-	FVector positions = Cast<AFGCharacter>(UGameplayStatics::GetPlayerPawn(this, 0))->AllSoundPositions.Pop();
+	
+ 	AActor* soundSorce = Cast<AFGCharacter>(UGameplayStatics::GetPlayerPawn(this, 0))->AllSoundPositions.Pop();
+
+	FVector Target = soundSorce->ActorToWorld().GetLocation();
 	FVector Origin = GetOwner()->ActorToWorld().GetLocation();
-	float distance = FVector::Dist(Origin, positions);
+	float distance = FVector::Dist(Origin, Target);
 
 	if (distance < 420 )
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow,TEXT("ouchie My ears! the sound is deadly!") );
-		GetOwner()->Destroy();
-		/*
-		heardSoundPosition = positions;
 		heardSomething = true;
-		
-		FVector toTarget = Origin - positions;
-		UKismetMathLibrary::RInterpTo(Origin.ToOrientationRotator(), positions.ToOrientationRotator(), DeltaTime,1);
-		*/
+		heardSoundObject = soundSorce;
 	}
+ 
+
 }
 
 

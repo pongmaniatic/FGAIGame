@@ -18,10 +18,11 @@ void EmptyLinkFunctionForGeneratedCodeFGCharacter() {}
 	FGAI_API UClass* Z_Construct_UClass_AFGCharacter_NoRegister();
 	FGAI_API UClass* Z_Construct_UClass_AFGCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	FGAI_API UClass* Z_Construct_UClass_ASoundProjectile_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
@@ -131,7 +132,7 @@ void EmptyLinkFunctionForGeneratedCodeFGCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_AllSoundPositions_Inner;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AllSoundPositions_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AllSoundPositions_MetaData[];
 #endif
@@ -215,7 +216,7 @@ void EmptyLinkFunctionForGeneratedCodeFGCharacter() {}
 		{ "ModuleRelativePath", "FGCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AFGCharacter_Statics::NewProp_AllSoundPositions_Inner = { "AllSoundPositions", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFGCharacter_Statics::NewProp_AllSoundPositions_Inner = { "AllSoundPositions", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFGCharacter_Statics::NewProp_AllSoundPositions_MetaData[] = {
 		{ "Category", "Sound" },
@@ -396,7 +397,7 @@ void EmptyLinkFunctionForGeneratedCodeFGCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFGCharacter, 2583060363);
+	IMPLEMENT_CLASS(AFGCharacter, 2699059918);
 	template<> FGAI_API UClass* StaticClass<AFGCharacter>()
 	{
 		return AFGCharacter::StaticClass();

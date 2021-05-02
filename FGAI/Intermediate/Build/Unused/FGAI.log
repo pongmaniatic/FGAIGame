@@ -1,45 +1,13 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Admin\Documents\Unreal Projects\FGAIGame).
-  Creating makefile for FGAIEditor (no existing makefile)
-  Parsing headers for FGAIEditor
-    Running UnrealHeaderTool "C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\FGAI.uproject" "C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\FGAIEditor\Development\FGAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Admin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for FGAIEditor in 11.8073136 seconds
+  Invalidating makefile for FGAIEditor (FGNoiseSensingComponent.cpp modified)
   Building FGAIEditor...
   Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 33 actions with 4 processes...
-    [1/33] Default.rc2
-    [2/33] SharedPCH.Engine.ShadowErrors.cpp
-    [3/33] FGAI.init.gen.cpp
-    [4/33] FGAIGameMode.gen.cpp
-    [5/33] FGVisionSensingComponent.cpp
-    [6/33] FGCharacter.cpp
-    [7/33] FGNoiseSensingComponent.gen.cpp
-    [8/33] FGMovementComponent.gen.cpp
-    [9/33] FGNavMovementComponent.gen.cpp
-    [10/33] SoundProjectile.gen.cpp
-    [11/33] FGVisionSensingTargetComponent.gen.cpp
-    [12/33] FGStateMachineComponent.gen.cpp
-    [13/33] FGEnemy.gen.cpp
-    [14/33] FGCharacter.gen.cpp
-    [15/33] FGVisionSensingSettings.gen.cpp
-    [16/33] FGAI.cpp
-    [17/33] FGVisionSensingComponent.gen.cpp
-    [18/33] FGMovementStatics.cpp
-    [19/33] FGEnemy.cpp
-    [20/33] FGVisionSensingTargetComponent.cpp
-    [21/33] FGAIStateBase.cpp
-    [22/33] FGAIGameMode.cpp
-    [23/33] FGAIStateMachineSheet.gen.cpp
-    [24/33] FGNoiseSensingComponent.cpp
-    [25/33] FGStateMachineComponent.cpp
-    [26/33] FGMovementComponent.cpp
-    [27/33] FGAIStateBase.gen.cpp
-    [28/33] TestFile.cpp
-    [29/33] SoundProjectile.cpp
-    [30/33] FGNavMovementComponent.cpp
-    [31/33] UE4Editor-FGAI.lib
+  Building 4 actions with 4 processes...
+    [1/4] FGNoiseSensingComponent.cpp
+    [2/4] UE4Editor-FGAI.lib
        Creating library C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\UE4Editor-FGAI.lib and object C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\UE4Editor-FGAI.exp
-    [32/33] UE4Editor-FGAI.dll
+    [3/4] UE4Editor-FGAI.dll
        Creating library C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\UE4Editor-FGAI.suppressed.lib and object C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\UE4Editor-FGAI.suppressed.exp
-    [33/33] FGAIEditor.target
-  Total time in Parallel executor: 35.57 seconds
-  Total execution time: 65.39 seconds
+    [4/4] FGAIEditor.target
+  Total time in Parallel executor: 1.58 seconds
+  Total execution time: 3.77 seconds
