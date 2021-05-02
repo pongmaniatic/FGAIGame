@@ -230,8 +230,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI
-/I C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Source
+/I "C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI"
+/I "C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Source"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MRMesh
@@ -265,12 +265,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\FGAIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\FGAIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\FGAIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\FGMovementComponent.gen.cpp"
-/FI"C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\Definitions.FGAI.h"
-/Fo"C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\FGMovementComponent.gen.cpp.obj"
+/FI"C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\FGAIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\FGAIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\FGAIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Inc\FGAI\FGMovementComponent.gen.cpp"
+/FI"C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\Definitions.FGAI.h"
+/Fo"C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\FGMovementComponent.gen.cpp.obj"
 /TP
 /GR-
 /W4

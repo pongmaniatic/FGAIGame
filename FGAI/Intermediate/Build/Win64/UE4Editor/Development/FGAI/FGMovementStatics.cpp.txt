@@ -1,2 +1,2 @@
-C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\Definitions.FGAI.h
-C:\Users\Esteban.Morales\Perforce\AIAssignment\FG20FT_AI_Team6\FGAIGame\FGAI\Source\FGAI\FGMovementStatics.h
+C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\Definitions.FGAI.h
+C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Source\FGAI\FGMovementStatics.h

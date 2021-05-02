@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FGAI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E4A39DB2-139D-444B-B9E1-5580B01026AE}</UniqueIdentifier>
+      <UniqueIdentifier>{2422DA07-7731-443F-B912-34BDBA92AD29}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FGAI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{836F91EA-6239-4407-9F3F-50EA4F8C3C0B}</UniqueIdentifier>
+      <UniqueIdentifier>{806028BD-C5E0-42F1-B998-E6090C4A06FA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FGAI">
-      <UniqueIdentifier>{A210CA07-72AF-41C6-B87F-260AF3658FFA}</UniqueIdentifier>
+      <UniqueIdentifier>{D066482E-8AB3-4003-8BB4-F278069EFD74}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FGAI\FGAI.Build.cs">
       <Filter>Source\FGAI</Filter>
@@ -87,10 +87,10 @@
       <Filter>Source\FGAI</Filter>
     </ClInclude>
     <Filter Include="Source\FGAI\AI">
-      <UniqueIdentifier>{ECDB29FA-1189-414E-8793-AF332A27303C}</UniqueIdentifier>
+      <UniqueIdentifier>{824AC8D1-8F34-4246-98BA-2330D5BAC00A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\FGAI\AI\Movement">
-      <UniqueIdentifier>{C7038D32-79FC-4E43-AB30-0AA201D9123E}</UniqueIdentifier>
+      <UniqueIdentifier>{DB3CA230-735C-4BCB-8A7C-FC806AA03366}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FGAI\AI\Movement\FGNavMovementComponent.cpp">
       <Filter>Source\FGAI\AI\Movement</Filter>
@@ -99,7 +99,7 @@
       <Filter>Source\FGAI\AI\Movement</Filter>
     </ClInclude>
     <Filter Include="Source\FGAI\AI\Sensing">
-      <UniqueIdentifier>{0C2073D4-CC44-4EF9-99DB-95BD079B3BE0}</UniqueIdentifier>
+      <UniqueIdentifier>{7A7D050E-0748-4A84-8DE9-2916D8A128E4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FGAI\AI\Sensing\FGVisionSensingComponent.cpp">
       <Filter>Source\FGAI\AI\Sensing</Filter>
@@ -117,7 +117,7 @@
       <Filter>Source\FGAI\AI\Sensing</Filter>
     </ClInclude>
     <Filter Include="Source\FGAI\AI\StateMachine">
-      <UniqueIdentifier>{0801AE5F-9A5D-47FB-BD2B-AF1042400062}</UniqueIdentifier>
+      <UniqueIdentifier>{3C093DFA-E663-467E-BB5B-93E763005068}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FGAI\AI\StateMachine\FGAIStateBase.cpp">
       <Filter>Source\FGAI\AI\StateMachine</Filter>
@@ -135,7 +135,7 @@
       <Filter>Source\FGAI\AI\StateMachine</Filter>
     </ClInclude>
     <Filter Include="Source\FGAI\Components">
-      <UniqueIdentifier>{506A4FA6-5D3C-4D89-8B7C-09D7C67FF7A5}</UniqueIdentifier>
+      <UniqueIdentifier>{0D581628-39C5-4900-BB13-49BFE9E40729}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FGAI\Components\FGMovementComponent.cpp">
       <Filter>Source\FGAI\Components</Filter>
