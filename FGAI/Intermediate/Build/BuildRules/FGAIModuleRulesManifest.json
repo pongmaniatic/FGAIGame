@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Esteban.Morales\\Perforce\\AIAssignment\\FG20FT_AI_Team6\\FGAIGame\\FGAI\\Source\\FGAI\\FGAI.Build.cs",
-		"C:\\Users\\Esteban.Morales\\Perforce\\AIAssignment\\FG20FT_AI_Team6\\FGAIGame\\FGAI\\Source\\FGAI.Target.cs",
-		"C:\\Users\\Esteban.Morales\\Perforce\\AIAssignment\\FG20FT_AI_Team6\\FGAIGame\\FGAI\\Source\\FGAIEditor.Target.cs"
+		"C:\\Users\\Admin\\Documents\\Unreal Projects\\FGAIGame\\FGAI\\Source\\FGAI\\FGAI.Build.cs",
+		"C:\\Users\\Admin\\Documents\\Unreal Projects\\FGAIGame\\FGAI\\Source\\FGAI.Target.cs",
+		"C:\\Users\\Admin\\Documents\\Unreal Projects\\FGAIGame\\FGAI\\Source\\FGAIEditor.Target.cs"
 	],
 	"EngineVersion": "4.26.1"
 }
