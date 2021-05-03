@@ -1,13 +1,3 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Admin\Documents\Unreal Projects\FGAIGame).
-  Invalidating makefile for FGAIEditor (FGNoiseSensingComponent.cpp modified)
-  Building FGAIEditor...
-  Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 4 processes...
-    [1/4] FGNoiseSensingComponent.cpp
-    [2/4] UE4Editor-FGAI.lib
-       Creating library C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\UE4Editor-FGAI.lib and object C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\UE4Editor-FGAI.exp
-    [3/4] UE4Editor-FGAI.dll
-       Creating library C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\UE4Editor-FGAI.suppressed.lib and object C:\Users\Admin\Documents\Unreal Projects\FGAIGame\FGAI\Intermediate\Build\Win64\UE4Editor\Development\FGAI\UE4Editor-FGAI.suppressed.exp
-    [4/4] FGAIEditor.target
-  Total time in Parallel executor: 1.58 seconds
-  Total execution time: 3.77 seconds
+  Target is up to date
+  Total execution time: 1.88 seconds
