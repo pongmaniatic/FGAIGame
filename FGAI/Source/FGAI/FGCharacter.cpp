@@ -145,7 +145,7 @@ void AFGCharacter::OnJump()
 {
 	if (Gravity == 900 && touchedGround == true) 
 	{
-		Gravity -= 2100; 
+		Gravity = -900; 
 		touchedGround = false;
 	}
 }
