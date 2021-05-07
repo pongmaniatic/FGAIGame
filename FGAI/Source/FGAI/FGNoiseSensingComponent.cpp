@@ -26,8 +26,9 @@ void UFGNoiseSensingComponent::BeginPlay()
 
 void UFGNoiseSensingComponent::Lisen()
 {
+ 
 	
- 	AActor* soundSorce = Cast<AFGCharacter>(UGameplayStatics::GetPlayerPawn(this, 0))->AllSoundPositions.Pop();
+		AActor* soundSorce = Cast<AFGCharacter>(UGameplayStatics::GetPlayerPawn(this, 0))->AllSoundPositions.Last();
 
 	FVector Target = soundSorce->ActorToWorld().GetLocation();
 	FVector Origin = GetOwner()->ActorToWorld().GetLocation();
@@ -38,6 +39,7 @@ void UFGNoiseSensingComponent::Lisen()
 		heardSomething = true;
 		heardSoundObject = soundSorce;
 	}
+	
  
 
 }
